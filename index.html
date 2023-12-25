@@ -44,8 +44,10 @@
         <p><a href="">Kontakt</a></p>
      </div>
     <div id="banner">
-        <video class="pc" width="100%" src="images/Sequence 02.mp4" autoplay="autoplay"  loop></video>
-        <video class="mobile" width="100%" src="images/TELEFON VERZIA.mp4" autoplay="autoplay" loop ></video>
+        <video autoplay loop muted id="pcd" class="pc" width="100%"  >
+            <source src="images/web verzia.mp4" type="video/mp4">
+        </video>
+        <video class="mobile" width="100%"  src="images/TELEFON VERZIA.mp4" autoplay="autoplay"  ></video>
 
     </div>
     <div id="services">
@@ -157,7 +159,7 @@
     <script src="script/mobileMenu.js"></script>
 
     <script>
-        console.log(document.body.offsetWidth);
+      
     </script>
     
 </body>
