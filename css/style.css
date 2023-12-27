@@ -235,7 +235,7 @@ a {
 	#technology {
 		width: 100%;
 		height: 60%;
-		background-image: url(../images/R.jpg);
+		background-image: url(../images/VYBORBA.png);
 		background-size: 300%;
 		background-position: center;
 		margin-top: 10%;
@@ -645,7 +645,7 @@ a {
 	#technology {
 		width: 100%;
 		height: 60%;
-		background-image: url(../images/R.jpg);
+		background-image: url(../images/VYBORBA.png);
 		background-size: 300%;
 		background-position: center;
 		margin-top: 10%;
@@ -885,7 +885,14 @@ a {
 		position: relative;
 		top: 0%;
 		box-shadow: 10px 0 10px rgba(0, 0, 0, 0.795);
-		overflow-y: hidden;
+		overflow: hidden;
+	}
+
+	.pc {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
 	}
 
 	.mobile {
@@ -1027,7 +1034,7 @@ a {
 	#technology {
 		width: 100%;
 		height: 60%;
-		background-image: url(../images/R.jpg);
+		background-image: url(../images/VYBORBA.png);
 		background-size: 100%;
 		background-position: center;
 		margin-top: 10%;
@@ -1278,6 +1285,10 @@ a {
 		left: 0;
 	} */
 
+	.mobile {
+		display: none;
+	}
+
 	/* ............................................................................... */
 
 	#services {
@@ -1412,7 +1423,7 @@ a {
 	#technology {
 		width: 100%;
 		height: 40%;
-		background-image: url(../images/R.jpg);
+		background-image: url(../images/VYBORBA.png);
 		background-size: 100%;
 		background-position: center;
 		margin-top: 10%;
