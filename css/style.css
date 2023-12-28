@@ -406,7 +406,7 @@ a {
 	}
 
 	#footer .left img {
-		width: 300px;
+		width: 180%;
 	}
 
 	.left h3 {
@@ -901,6 +901,37 @@ a {
 
 	.mobile {
 		display: none;
+	}
+
+	.banner-cover {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 5%;
+	}
+
+	.banner-cover h2,
+	h3,
+	p {
+		font-family: "Montserrat";
+		color: white;
+	}
+
+	.banner-cover h2 {
+		font-size: 40px;
+	}
+
+	.banner-cover h3 {
+		font-size: 20px;
+		margin-top: 20px;
+	}
+
+	.banner-cover p {
+		font-size: 15px;
 	}
 
 	/* ............................................................................... */
