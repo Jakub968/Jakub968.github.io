@@ -13,6 +13,10 @@ body {
 	scroll-behavior: smooth;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 li {
 	list-style: none;
 }
@@ -145,35 +149,17 @@ a {
 
 	#services {
 		width: 100%;
-		height: 120%;
+		height: 90%;
 		/* margin-top: 5%; */
 	}
 
 	#services .container {
-		width: 100%;
-		height: 20%;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	#services .container h1 {
-		font-family: "Montserrat";
-		font-size: 60px;
-		margin-left: 5%;
-		font-weight: 500;
-		color: rgb(56, 56, 165);
-		transition: 0.3s ease-out;
-	}
-
-	#services .container div {
 		display: none;
 	}
 
 	#services .container2 {
 		width: 100%;
-		height: 70%;
+		height: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -189,6 +175,7 @@ a {
 		justify-content: center;
 		padding: 10% 0;
 		transition: 0.3s ease;
+		position: relative;
 	}
 
 	#services .container2 .box h2 {
@@ -197,6 +184,8 @@ a {
 		font-weight: 500;
 		margin-bottom: 10%;
 		transition: 0.3s ease;
+		color: white;
+		z-index: 2;
 	}
 
 	#services .container2 .box p {
@@ -206,6 +195,34 @@ a {
 		width: 70%;
 		text-align: center;
 		transition: 0.3s ease;
+		color: white;
+		z-index: 2;
+	}
+
+	.box3 {
+		background-image: url(../images/VYBORBAhh.png);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.box2 {
+		background-image: url(../images/tla4.png);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.box1 {
+		background-image: url(../images/DSC04258.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.bcCover {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		background-color: rgba(0, 0, 0, 0.422);
 	}
 
 	/* .......................................................... */
@@ -221,7 +238,7 @@ a {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		align-items: flex-start;
+		align-items: center;
 	}
 
 	.box-about h1 {
@@ -256,7 +273,8 @@ a {
 	.box-about2 div {
 		width: 250px;
 		height: 150px;
-		background-color: black;
+		background-image: url(../images/DSC03450.JPG);
+		background-size: cover;
 		transition: 0.3s ease-out;
 	}
 
@@ -666,7 +684,8 @@ a {
 	.box-about2 div {
 		width: 350px;
 		height: 170px;
-		background-color: black;
+		background-image: url(../images/DSC03450.JPG);
+		background-size: cover;
 		transition: 0.3s ease-out;
 	}
 
@@ -883,7 +902,7 @@ a {
 		align-items: center;
 		padding: 0 5%;
 		position: fixed;
-		z-index: 2;
+		z-index: 3;
 		transition: 0.2 ease;
 	}
 
@@ -969,38 +988,17 @@ a {
 
 	#services {
 		width: 100%;
-		height: 100%;
+		height: 70%;
 		/* margin-top: 5%; */
 	}
 
 	#services .container {
-		width: 100%;
-		height: 30%;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	#services .container h1 {
-		font-family: "Montserrat";
-		font-size: 60px;
-		margin-left: 5%;
-		font-weight: 500;
-		color: rgb(56, 56, 165);
-		transition: 0.3s ease-out;
-	}
-
-	#services .container div {
-		width: 70%;
-		height: 1.5px;
-		background-color: black;
-		transition: 0.4s cubic-bezier(0, 0, 0.21, 0.96);
+		display: none;
 	}
 
 	#services .container2 {
 		width: 100%;
-		height: 70%;
+		height: 100%;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -1008,7 +1006,7 @@ a {
 	}
 
 	#services .container2 .box {
-		width: 33.333%;
+		width: 30%;
 		height: 70%;
 		display: flex;
 		flex-direction: column;
@@ -1016,6 +1014,7 @@ a {
 		justify-content: center;
 		padding: 10% 0;
 		transition: 0.3s ease;
+		position: relative;
 	}
 
 	#services .container2 .box h2 {
@@ -1024,6 +1023,8 @@ a {
 		font-weight: 500;
 		margin-bottom: 10%;
 		transition: 0.3s ease;
+		color: white;
+		z-index: 2;
 	}
 
 	#services .container2 .box p {
@@ -1033,6 +1034,34 @@ a {
 		width: 70%;
 		text-align: center;
 		transition: 0.3s ease;
+		color: white;
+		z-index: 2;
+	}
+
+	.box3 {
+		background-image: url(../images/VYBORBAhh.png);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.box2 {
+		background-image: url(../images/tla4.png);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.box1 {
+		background-image: url(../images/DSC04258.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.bcCover {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		background-color: rgba(0, 0, 0, 0.422);
 	}
 
 	/* .......................................................... */
@@ -1087,7 +1116,8 @@ a {
 	.box-about2 div {
 		width: 350px;
 		height: 170px;
-		background-color: black;
+		background-image: url(../images/DSC03450.JPG);
+		background-size: cover;
 		transition: 0.3s ease-out;
 	}
 
@@ -1237,7 +1267,6 @@ a {
 		height: 70%;
 		display: flex;
 		flex-direction: row-reverse;
-		margin-top: 10%;
 	}
 
 	#footer .right {
@@ -1310,8 +1339,8 @@ a {
 	}
 
 	#header img {
-		width: 120px;
-		height: 30px;
+		width: 150px;
+		height: 50px;
 	}
 
 	#header ul {
@@ -1507,7 +1536,8 @@ a {
 	.box-about2 div {
 		width: 550px;
 		height: 270px;
-		background-color: black;
+		background-image: url(../images/DSC03450.JPG);
+		background-size: cover;
 		transition: 0.3s ease-out;
 	}
 
