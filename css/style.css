@@ -133,24 +133,28 @@ a {
 	}
 
 	.banner-cover h2 {
-		font-size: 40px;
+		font-size: 30px;
+		width: 80%;
 	}
 
 	.banner-cover h3 {
-		font-size: 20px;
+		font-size: 18px;
+		width: 80%;
 		margin-top: 20px;
+		margin-bottom: 10px;
 	}
 
 	.banner-cover p {
 		font-size: 15px;
+		width: 70%;
 	}
 
 	/* ............................................................................... */
 
 	#services {
 		width: 100%;
-		height: 90%;
-		/* margin-top: 5%; */
+		height: 120%;
+		margin-top: 10%;
 	}
 
 	#services .container {
@@ -162,13 +166,13 @@ a {
 		height: 100%;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
 	}
 
 	#services .container2 .box {
 		width: 100%;
-		height: 33%;
+		height: 30%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -197,6 +201,18 @@ a {
 		transition: 0.3s ease;
 		color: white;
 		z-index: 2;
+	}
+
+	#services .container2 .box a {
+		font-family: "Montserrat";
+		font-size: 15px;
+		font-weight: 500;
+		text-align: center;
+		transition: 0.3s ease;
+		color: white;
+		z-index: 2;
+		margin-top: 10px;
+		text-decoration: underline;
 	}
 
 	.box3 {
@@ -497,8 +513,8 @@ a {
 	}
 
 	#logo {
-		width: 120px;
-		height: 30px;
+		width: 200px;
+		height: 60px;
 	}
 
 	.hamburger {
@@ -528,11 +544,11 @@ a {
 	.mobileMenu p a {
 		font-family: "Montserrat";
 		color: white;
-		font-size: 20px;
+		font-size: 25px;
 	}
 
 	.mobileMenu p {
-		margin: 10px 0;
+		margin: 20px 0;
 	}
 
 	.X {
@@ -569,71 +585,135 @@ a {
 		transform: translateX(-50%);
 	}
 
+	video::-webkit-media-controls {
+		display: none;
+	}
+
+	.banner-cover {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 5%;
+	}
+
+	.banner-cover h2,
+	.banner-cover h3,
+	.banner-cover p {
+		font-family: "Montserrat";
+		color: white;
+	}
+
+	.banner-cover h2 {
+		font-size: 50px;
+		width: 80%;
+	}
+
+	.banner-cover h3 {
+		font-size: 30px;
+		width: 80%;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+
+	.banner-cover p {
+		font-size: 25px;
+		width: 70%;
+	}
+
 	/* ............................................................................... */
 
 	#services {
 		width: 100%;
-		height: 100%;
-		/* margin-top: 5%; */
+		height: 120%;
+		margin-top: 10%;
 	}
 
 	#services .container {
-		width: 100%;
-		height: 20%;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	#services .container h1 {
-		font-family: "Montserrat";
-		font-size: 60px;
-		margin-left: 5%;
-		font-weight: 500;
-		color: rgb(56, 56, 165);
-		transition: 0.3s ease-out;
-	}
-
-	#services .container div {
 		display: none;
 	}
 
 	#services .container2 {
 		width: 100%;
-		height: 70%;
+		height: 100%;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
 	}
 
 	#services .container2 .box {
 		width: 100%;
-		height: 33%;
+		height: 30%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		padding: 10% 0;
 		transition: 0.3s ease;
+		position: relative;
 	}
 
 	#services .container2 .box h2 {
 		font-family: "Montserrat";
-		font-size: 20px;
+		font-size: 40px;
 		font-weight: 500;
 		margin-bottom: 10%;
 		transition: 0.3s ease;
+		color: white;
+		z-index: 2;
 	}
 
 	#services .container2 .box p {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 25px;
 		font-weight: 500;
 		width: 70%;
 		text-align: center;
 		transition: 0.3s ease;
+		color: white;
+		z-index: 2;
+	}
+
+	#services .container2 .box a {
+		font-family: "Montserrat";
+		font-size: 25px;
+		font-weight: 500;
+		text-align: center;
+		transition: 0.3s ease;
+		color: white;
+		z-index: 2;
+		margin-top: 10px;
+		text-decoration: underline;
+	}
+
+	.box3 {
+		background-image: url(../images/VYBORBAhh.png);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.box2 {
+		background-image: url(../images/tla4.png);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.box1 {
+		background-image: url(../images/DSC04258.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.bcCover {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		background-color: rgba(0, 0, 0, 0.422);
 	}
 
 	/* .......................................................... */
@@ -641,6 +721,7 @@ a {
 	#about {
 		width: 100%;
 		height: 60%;
+		margin-top: 50px;
 	}
 
 	.box-about {
@@ -654,7 +735,7 @@ a {
 
 	.box-about h1 {
 		font-family: "Montserrat";
-		font-size: 60px;
+		font-size: 100px;
 		margin-left: 5%;
 		font-weight: 500;
 		color: rgb(56, 56, 165);
@@ -676,14 +757,14 @@ a {
 
 	.box-about2 p {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 25px;
 		width: 80%;
 		transition: 0.3s ease-out;
 	}
 
 	.box-about2 div {
-		width: 350px;
-		height: 170px;
+		width: 450px;
+		height: 270px;
 		background-image: url(../images/DSC03450.JPG);
 		background-size: cover;
 		transition: 0.3s ease-out;
@@ -717,7 +798,7 @@ a {
 
 	.cover h1 {
 		font-family: "Montserrat";
-		font-size: 60px;
+		font-size: 100px;
 		margin-left: 5%;
 		font-weight: 500;
 		color: rgb(255, 255, 255);
@@ -727,7 +808,7 @@ a {
 	.cover p {
 		font-family: "Montserrat";
 		margin-left: 5%;
-		font-size: 15px;
+		font-size: 25px;
 		width: 70%;
 		color: white;
 		transition: 0.3s ease-out;
@@ -749,7 +830,7 @@ a {
 
 	.box-photogalery h1 {
 		font-family: "Montserrat";
-		font-size: 60px;
+		font-size: 100px;
 		margin-left: 5%;
 		font-weight: 500;
 		color: rgb(56, 56, 165);
@@ -850,7 +931,7 @@ a {
 
 	.right li {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 25px;
 		text-align: left;
 		margin: 20px 0;
 	}
@@ -866,12 +947,12 @@ a {
 	}
 
 	#footer .left img {
-		width: 300px;
+		width: 400px;
 	}
 
 	.left h3 {
 		font-family: "Montserrat";
-		font-size: 25px;
+		font-size: 45px;
 		font-weight: 500;
 		margin: 20px 0;
 		margin-left: 0px;
@@ -879,7 +960,7 @@ a {
 
 	.left p {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 25px;
 		margin-left: 0px;
 	}
 
@@ -1038,6 +1119,19 @@ a {
 		z-index: 2;
 	}
 
+	#services .container2 .box a {
+		font-family: "Montserrat";
+		font-size: 15px;
+		font-weight: 500;
+		width: 70%;
+		text-align: center;
+		transition: 0.3s ease;
+		color: white;
+		z-index: 2;
+		margin-top: 20px;
+		text-decoration: underline;
+	}
+
 	.box3 {
 		background-image: url(../images/VYBORBAhh.png);
 		background-size: cover;
@@ -1045,7 +1139,7 @@ a {
 	}
 
 	.box2 {
-		background-image: url(../images/tla4.png);
+		background-image: url(../images/dizajn.jpg);
 		background-size: cover;
 		background-position: center;
 	}
@@ -1339,7 +1433,7 @@ a {
 	}
 
 	#header img {
-		width: 150px;
+		width: 1ž0px;
 		height: 50px;
 	}
 
@@ -1352,7 +1446,7 @@ a {
 
 	#header ul li {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 18px;
 	}
 
 	.hamburger {
@@ -1396,8 +1490,8 @@ a {
 	}
 
 	.banner-cover h2,
-	h3,
-	p {
+	.banner-cover h3,
+	.banner-cover p {
 		font-family: "Montserrat";
 		color: white;
 	}
@@ -1420,36 +1514,16 @@ a {
 	#services {
 		width: 100%;
 		height: 70%;
+		/* margin-top: 5%; */
 	}
 
 	#services .container {
-		width: 100%;
-		height: 30%;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	#services .container h1 {
-		font-family: "Montserrat";
-		font-size: 60px;
-		margin-left: 5%;
-		font-weight: 500;
-		color: rgb(56, 56, 165);
-		transition: 0.3s ease-out;
-	}
-
-	#services .container div {
-		width: 70%;
-		height: 1.5px;
-		background-color: black;
-		transition: 0.4s cubic-bezier(0, 0, 0.21, 0.96);
+		display: none;
 	}
 
 	#services .container2 {
 		width: 100%;
-		height: 70%;
+		height: 100%;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -1457,7 +1531,7 @@ a {
 	}
 
 	#services .container2 .box {
-		width: 33.333%;
+		width: 30%;
 		height: 70%;
 		display: flex;
 		flex-direction: column;
@@ -1465,6 +1539,7 @@ a {
 		justify-content: center;
 		padding: 10% 0;
 		transition: 0.3s ease;
+		position: relative;
 	}
 
 	#services .container2 .box h2 {
@@ -1473,6 +1548,8 @@ a {
 		font-weight: 500;
 		margin-bottom: 10%;
 		transition: 0.3s ease;
+		color: white;
+		z-index: 2;
 	}
 
 	#services .container2 .box p {
@@ -1482,6 +1559,34 @@ a {
 		width: 70%;
 		text-align: center;
 		transition: 0.3s ease;
+		color: white;
+		z-index: 2;
+	}
+
+	.box3 {
+		background-image: url(../images/VYBORBAhh.png);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.box2 {
+		background-image: url(../images/tla4.png);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.box1 {
+		background-image: url(../images/DSC04258.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.bcCover {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		background-color: rgba(0, 0, 0, 0.422);
 	}
 
 	/* .......................................................... */

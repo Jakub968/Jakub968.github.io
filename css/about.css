@@ -239,8 +239,8 @@ a {
 	}
 
 	#logo {
-		width: 120px;
-		height: 30px;
+		width: 200px;
+		height: 60px;
 	}
 
 	.hamburger {
@@ -270,11 +270,11 @@ a {
 	.mobileMenu p a {
 		font-family: "Montserrat";
 		color: white;
-		font-size: 20px;
+		font-size: 25px;
 	}
 
 	.mobileMenu p {
-		margin: 10px 0;
+		margin: 20px 0;
 	}
 
 	.X {
@@ -298,14 +298,14 @@ a {
 
 	#banner h1 {
 		font-family: "Montserrat";
-		font-size: 80px;
+		font-size: 100px;
 		font-weight: 500;
 		color: white;
 	}
 
 	#banner p {
 		font-family: "Montserrat";
-		font-size: 20px;
+		font-size: 25px;
 		color: white;
 		margin-top: 40px;
 		width: 80%;
@@ -331,14 +331,14 @@ a {
 
 	.content-left h1 {
 		font-family: "Montserrat";
-		font-size: 80px;
+		font-size: 100px;
 		font-weight: 500;
 		color: black;
 	}
 
 	.content-left p {
 		font-family: "Montserrat";
-		font-size: 20px;
+		font-size: 25px;
 		font-weight: 500;
 		color: black;
 		margin-top: 40px;
@@ -363,7 +363,7 @@ a {
 		height: 50%;
 		display: flex;
 		flex-direction: row-reverse;
-		margin-top: 0%;
+		margin-top: 10%;
 		padding-bottom: 10%;
 	}
 
@@ -379,7 +379,7 @@ a {
 
 	.right li {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 25px;
 		text-align: left;
 		margin: 20px 0;
 	}
@@ -395,12 +395,12 @@ a {
 	}
 
 	#footer .left img {
-		width: 300px;
+		width: 400px;
 	}
 
 	.left h3 {
 		font-family: "Montserrat";
-		font-size: 25px;
+		font-size: 45px;
 		font-weight: 500;
 		margin: 20px 0;
 		margin-left: 0px;
@@ -408,7 +408,7 @@ a {
 
 	.left p {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 25px;
 		margin-left: 0px;
 	}
 
@@ -607,8 +607,8 @@ a {
 	}
 
 	#header img {
-		width: 120px;
-		height: 30px;
+		width: 1ž0px;
+		height: 50px;
 	}
 
 	#header ul {
@@ -620,11 +620,14 @@ a {
 
 	#header ul li {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 18px;
 	}
 
-	.mobileMenu,
 	.hamburger {
+		display: none;
+	}
+
+	.mobileMenu {
 		display: none;
 	}
 

@@ -151,18 +151,43 @@ a {
 
 	#services {
 		width: 100%;
-		height: 200%;
+		/* height: 400%; */
 	}
 
 	.service1,
 	.service2,
 	.service3 {
-		width: 100%;
+		/* width: 100%;
 		height: 33.33333%;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		overflow: hidden;
+		overflow: hidden; */
+		display: none;
+	}
+
+	.service1 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100%;
+		height: 800px;
+	}
+
+	.service2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100%;
+		height: 600px;
+	}
+
+	.service3 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100%;
+		height: 600px;
 	}
 
 	.service1-left {
@@ -170,7 +195,7 @@ a {
 		height: 70%;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
+		justify-content: center;
 		padding-left: 5%;
 		padding-right: 5%;
 	}
@@ -180,11 +205,21 @@ a {
 		font-size: 40px;
 		font-weight: 400;
 		color: black;
+		margin-bottom: 30px;
+	}
+
+	.service1-left h4 {
+		font-family: "Montserrat";
+		font-size: 25px;
+		font-weight: 400;
+		color: black;
+		margin-top: 50px;
+		margin-bottom: 30px;
 	}
 
 	.service1-left p {
 		font-family: "Montserrat";
-		font-size: 12px;
+		font-size: 15px;
 		font-weight: 500;
 		color: black;
 		width: 90%;
@@ -207,7 +242,7 @@ a {
 		height: 70%;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
+		justify-content: center;
 		padding-right: 5%;
 		padding-left: 5%;
 	}
@@ -217,11 +252,21 @@ a {
 		font-size: 40px;
 		font-weight: 400;
 		color: black;
+		margin-bottom: 30px;
+	}
+
+	.service2-left h4 {
+		font-family: "Montserrat";
+		font-size: 25px;
+		font-weight: 400;
+		color: black;
+		margin-top: 50px;
+		margin-bottom: 30px;
 	}
 
 	.service2-left p {
 		font-family: "Montserrat";
-		font-size: 12px;
+		font-size: 15px;
 		font-weight: 500;
 		color: black;
 		width: 90%;
@@ -258,7 +303,7 @@ a {
 
 	.service3-left p {
 		font-family: "Montserrat";
-		font-size: 12px;
+		font-size: 15px;
 		font-weight: 500;
 		color: black;
 		width: 90%;
@@ -355,8 +400,8 @@ a {
 	}
 
 	#logo {
-		width: 120px;
-		height: 30px;
+		width: 200px;
+		height: 60px;
 	}
 
 	.hamburger {
@@ -386,11 +431,11 @@ a {
 	.mobileMenu p a {
 		font-family: "Montserrat";
 		color: white;
-		font-size: 20px;
+		font-size: 25px;
 	}
 
 	.mobileMenu p {
-		margin: 10px 0;
+		margin: 20px 0;
 	}
 
 	.X {
@@ -416,7 +461,7 @@ a {
 
 	.top {
 		width: 100%;
-		height: 70%;
+		height: 50%;
 		padding-left: 5%;
 		display: flex;
 		flex-direction: column;
@@ -425,14 +470,14 @@ a {
 
 	.top h1 {
 		font-family: "Montserrat";
-		font-size: 60px;
+		font-size: 100px;
 		font-weight: 500;
 		color: white;
 	}
 
 	.top p {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 25px;
 		font-weight: 500;
 		color: white;
 		width: 90%;
@@ -441,23 +486,24 @@ a {
 
 	.bottom {
 		width: 100%;
-		height: 30%;
+		height: 50%;
 		padding-left: 5%;
+		padding-top: 50px;
 		display: flex;
 		flex-direction: row;
-		align-items: center;
+		align-items: flex-start;
 	}
 
 	.bottom p {
 		font-family: "Montserrat";
-		font-size: 20px;
+		font-size: 25px;
 		font-weight: 500;
 		color: white;
 		margin-right: 50px;
 	}
 
 	.bottom span {
-		font-size: 30px;
+		font-size: 35px;
 		margin-right: 10px;
 		font-weight: 700;
 	}
@@ -490,6 +536,13 @@ a {
 
 	.service1-left h2 {
 		font-family: "Montserrat";
+		font-size: 80px;
+		font-weight: 400;
+		color: black;
+	}
+
+	.service1-left h4 {
+		font-family: "Montserrat";
 		font-size: 40px;
 		font-weight: 400;
 		color: black;
@@ -497,7 +550,7 @@ a {
 
 	.service1-left p {
 		font-family: "Montserrat";
-		font-size: 12px;
+		font-size: 25px;
 		font-weight: 500;
 		color: black;
 		width: 90%;
@@ -527,6 +580,13 @@ a {
 
 	.service2-left h2 {
 		font-family: "Montserrat";
+		font-size: 80px;
+		font-weight: 400;
+		color: black;
+	}
+
+	.service2-left h4 {
+		font-family: "Montserrat";
 		font-size: 40px;
 		font-weight: 400;
 		color: black;
@@ -534,7 +594,7 @@ a {
 
 	.service2-left p {
 		font-family: "Montserrat";
-		font-size: 12px;
+		font-size: 25px;
 		font-weight: 500;
 		color: black;
 		width: 90%;
@@ -564,6 +624,13 @@ a {
 
 	.service3-left h2 {
 		font-family: "Montserrat";
+		font-size: 80px;
+		font-weight: 400;
+		color: black;
+	}
+
+	.service3-left h4 {
+		font-family: "Montserrat";
 		font-size: 40px;
 		font-weight: 400;
 		color: black;
@@ -571,7 +638,7 @@ a {
 
 	.service3-left p {
 		font-family: "Montserrat";
-		font-size: 12px;
+		font-size: 25px;
 		font-weight: 500;
 		color: black;
 		width: 90%;
@@ -591,7 +658,7 @@ a {
 
 	#footer {
 		width: 100%;
-		height: 70%;
+		height: 50%;
 		display: flex;
 		flex-direction: row-reverse;
 		margin-top: 10%;
@@ -610,7 +677,7 @@ a {
 
 	.right li {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 25px;
 		text-align: left;
 		margin: 20px 0;
 	}
@@ -626,12 +693,12 @@ a {
 	}
 
 	#footer .left img {
-		width: 180%;
+		width: 400px;
 	}
 
 	.left h3 {
 		font-family: "Montserrat";
-		font-size: 25px;
+		font-size: 45px;
 		font-weight: 500;
 		margin: 20px 0;
 		margin-left: 0px;
@@ -639,7 +706,7 @@ a {
 
 	.left p {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 25px;
 		margin-left: 0px;
 	}
 
@@ -775,7 +842,7 @@ a {
 		height: 100%;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
+		justify-content: center;
 		padding-left: 5%;
 		padding-right: 5%;
 	}
@@ -785,6 +852,16 @@ a {
 		font-size: 50px;
 		font-weight: 400;
 		color: black;
+		margin-bottom: 20px;
+	}
+
+	.service1-left h4 {
+		font-family: "Montserrat";
+		color: black;
+		font-size: 20px;
+		font-weight: 500;
+		margin-top: 20px;
+		margin-bottom: 10px;
 	}
 
 	.service1-left p {
@@ -811,7 +888,7 @@ a {
 		height: 100%;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
+		justify-content: center;
 		padding-right: 5%;
 		padding-left: 5%;
 	}
@@ -821,6 +898,16 @@ a {
 		font-size: 50px;
 		font-weight: 400;
 		color: black;
+		margin-bottom: 20px;
+	}
+
+	.service2-left h4 {
+		font-family: "Montserrat";
+		color: black;
+		font-size: 20px;
+		font-weight: 500;
+		margin-top: 20px;
+		margin-bottom: 10px;
 	}
 
 	.service2-left p {
@@ -955,8 +1042,8 @@ a {
 	}
 
 	#header img {
-		width: 120px;
-		height: 30px;
+		width: 1ž0px;
+		height: 50px;
 	}
 
 	#header ul {
@@ -968,11 +1055,14 @@ a {
 
 	#header ul li {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 18px;
 	}
 
-	.mobileMenu,
 	.hamburger {
+		display: none;
+	}
+
+	.mobileMenu {
 		display: none;
 	}
 
@@ -1001,14 +1091,14 @@ a {
 
 	.top h1 {
 		font-family: "Montserrat";
-		font-size: 60px;
+		font-size: 70px;
 		font-weight: 500;
 		color: white;
 	}
 
 	.top p {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 18px;
 		font-weight: 500;
 		color: white;
 		width: 50%;
@@ -1032,7 +1122,7 @@ a {
 	}
 
 	.bottom span {
-		font-size: 30px;
+		font-size: 40px;
 		margin-right: 10px;
 		font-weight: 700;
 	}
@@ -1062,7 +1152,7 @@ a {
 		height: 100%;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
+		justify-content: center;
 		padding-left: 5%;
 		padding-right: 5%;
 	}
@@ -1072,11 +1162,21 @@ a {
 		font-size: 50px;
 		font-weight: 400;
 		color: black;
+		margin-bottom: 20px;
+	}
+
+	.service1-left h4 {
+		font-family: "Montserrat";
+		color: black;
+		font-size: 30px;
+		font-weight: 500;
+		margin-top: 40px;
+		margin-bottom: 20px;
 	}
 
 	.service1-left p {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 18px;
 		font-weight: 500;
 		color: black;
 	}
@@ -1098,7 +1198,7 @@ a {
 		height: 100%;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
+		justify-content: center;
 		padding-right: 5%;
 		padding-left: 5%;
 	}
@@ -1108,11 +1208,21 @@ a {
 		font-size: 50px;
 		font-weight: 400;
 		color: black;
+		margin-bottom: 20px;
+	}
+
+	.service2-left h4 {
+		font-family: "Montserrat";
+		color: black;
+		font-weight: 500;
+		font-size: 30px;
+		margin-top: 40px;
+		margin-bottom: 20px;
 	}
 
 	.service2-left p {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 18px;
 		font-weight: 500;
 		color: black;
 	}
@@ -1147,7 +1257,7 @@ a {
 
 	.service3-left p {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 18px;
 		font-weight: 500;
 		color: black;
 	}
