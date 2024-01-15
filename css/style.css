@@ -98,7 +98,8 @@ a {
 		height: 75%;
 		position: relative;
 		top: 0%;
-		right: 0;
+		right: 0%;
+		overflow-x: hidden;
 		/* box-shadow: 10px 0 10px rgba(0, 0, 0, 0.795); */
 	}
 
@@ -108,6 +109,7 @@ a {
 
 	.mobile {
 		height: 100%;
+		/* width: 100%; */
 	}
 
 	video::-webkit-media-controls {
