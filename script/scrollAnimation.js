@@ -35,7 +35,7 @@ if (document.body.offsetWidth > 1024 && document.body.offsetWidth < 1280) {
     
     
     
-        if (window.scrollY > 590) {
+        if (window.scrollY > 390) {
             boxAbout[0].children[0].style.transform = 'translateY(0px)'
             boxAbout[0].children[0].style.opacity = '1'
     
@@ -115,7 +115,7 @@ if (document.body.offsetWidth > 1280) {
         }
         console.log(window.scrollY);
     
-        if (window.scrollY > 270) {
+        if (window.scrollY > 170) {
            
     
             box[0].children[0].style.opacity = '1'
@@ -152,7 +152,7 @@ if (document.body.offsetWidth > 1280) {
     
         }
     
-        if (window.scrollY > (680)) {
+        if (window.scrollY > (480)) {
             line2[0].style.width = '70%'
             aboutH1[0].style.transform = 'translateX(0px)'
             aboutH1[0].style.opacity = '1'
@@ -166,7 +166,7 @@ if (document.body.offsetWidth > 1280) {
     
     
     
-        if (window.scrollY > 910) {
+        if (window.scrollY > 610) {
             boxAbout[0].children[0].style.transform = 'translateY(0px)'
             boxAbout[0].children[0].style.opacity = '1'
     
@@ -183,7 +183,7 @@ if (document.body.offsetWidth > 1280) {
     
     
     
-        if (window.scrollY > 1200) {
+        if (window.scrollY > 1000) {
           technology.style.opacity = '1' 
         }
         else{
@@ -192,7 +192,7 @@ if (document.body.offsetWidth > 1280) {
     
     
     
-        if (window.scrollY > 1250) {
+        if (window.scrollY > 1050) {
             technologyCover[0].children[0].style.opacity = '1'
             technologyCover[0].children[1].style.opacity = '1'
     
@@ -209,7 +209,7 @@ if (document.body.offsetWidth > 1280) {
         }
     
     
-        if (window.scrollY > 1630) {
+        if (window.scrollY > 1230) {
             boxPhotogalery[0].children[0].style.opacity = '1'
             boxPhotogalery[0].children[0].style.transform = 'translateX(0px)'
             boxPhotogalery[0].children[1].style.width = '60%'
