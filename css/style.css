@@ -41,7 +41,7 @@ a {
 		align-items: center;
 		padding: 0 5%;
 		position: fixed;
-		z-index: 2;
+		z-index: 3;
 		transition: 0.2 ease;
 	}
 
@@ -120,7 +120,7 @@ a {
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		z-index: 1;
+		z-index: 2;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
