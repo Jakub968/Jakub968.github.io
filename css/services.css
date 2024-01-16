@@ -182,6 +182,10 @@ a {
 		height: 600px;
 	}
 
+	.service2-left img {
+		width: 100%;
+	}
+
 	.service3 {
 		display: flex;
 		flex-direction: column;
