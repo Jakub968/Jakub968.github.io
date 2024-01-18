@@ -147,7 +147,7 @@ a {
 	}
 	/*//////////// */
 	.cnc {
-		height: 700px;
+		height: 1000px;
 		display: flex;
 	}
 	.cnc .left {
@@ -853,7 +853,10 @@ a {
 
 	#services {
 		width: 100%;
-		height: 250%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin-top: 10%;
 	}
 
 	.cnc,
@@ -861,14 +864,18 @@ a {
 	.print,
 	.optimus {
 		width: 100%;
-		height: 25%;
+		min-height: 500px;
 		display: flex;
 		flex-direction: row;
 	}
 
+	.cnc .right img {
+		width: 50%;
+	}
+
 	.left {
 		width: 50%;
-		height: 100%;
+		min-height: 100%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -879,13 +886,13 @@ a {
 	}
 
 	.laser .left img {
-		height: 100%;
+		max-height: 400px;
 		width: auto;
 	}
 
 	.right {
 		width: 50%;
-		height: 100%;
+		min-height: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
