@@ -218,19 +218,19 @@ a {
 	}
 
 	.box3 {
-		background-image: url(../images/VYBORBAhh.png);
+		background-image: url(../images/lasermark.jpg);
 		background-size: cover;
 		background-position: center;
 	}
 
 	.box2 {
-		background-image: url(../images/dizajn.jpg);
+		background-image: url(../images/dizajn.PNG);
 		background-size: cover;
 		background-position: center;
 	}
 
 	.box1 {
-		background-image: url(../images/DSC04258.jpg);
+		background-image: url(../images/vyroba.JPG);
 		background-size: cover;
 		background-position: center;
 	}
@@ -291,7 +291,7 @@ a {
 	.box-about2 div {
 		width: 250px;
 		height: 150px;
-		background-image: url(../images/DSC03450.JPG);
+		background-image: url(../images/freza_wm.JPG);
 		background-size: cover;
 		transition: 0.3s ease-out;
 	}
@@ -306,7 +306,7 @@ a {
 	#technology {
 		width: 100%;
 		height: 60%;
-		background-image: url(../images/VYBORBA.png);
+		background-image: url(../images/napis.jpg);
 		background-size: 300%;
 		background-position: center;
 		margin-top: 10%;
@@ -342,7 +342,7 @@ a {
 
 	#photogalery {
 		width: 100%;
-		height: 100%;
+		height: 200%;
 	}
 
 	.box-photogalery {
@@ -369,15 +369,18 @@ a {
 
 	.box-photos {
 		width: 100%;
-		height: 40%;
+		height: 20%;
 		display: flex;
 		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
 		flex-wrap: wrap;
 	}
 
 	.photo {
-		width: 50%;
-		height: 50%;
+		width: 45%;
+		height: 45%;
+		margin: 10px 0;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -386,13 +389,12 @@ a {
 
 	.photo p {
 		font-family: "Montserrat";
-		font-size: 20px;
+		font-size: 15px;
 		color: white;
 		position: absolute;
 
 		transition: 0.2s ease;
-		top: 20%;
-		opacity: 0;
+		top: 60%;
 	}
 
 	.photo1,
@@ -402,38 +404,70 @@ a {
 	.photo5,
 	.photo6,
 	.photo7,
-	.photo8 {
+	.photo8,
+	.photo9,
+	.photo10,
+	.photo11,
+	.photo12,
+	.photo13,
+	.photo14,
+	.photo15,
+	.photo16 {
 		background-size: cover;
 		background-position: center;
 	}
 
 	.photo1 {
-		background-image: url(../images/DSC04209.jpg);
+		background-image: url(../images/galeria/f01.JPG);
 	}
 
 	.photo2 {
-		background-image: url(../images/DSC04217.jpg);
+		background-image: url(../images/galeria/f02.JPG);
 	}
 
 	.photo3 {
-		background-image: url(../images/DSC04239.jpg);
+		background-image: url(../images/galeria/f03.JPG);
 	}
 
 	.photo4 {
-		background-image: url(../images/DSC04246.jpg);
+		background-image: url(../images/galeria/f04.JPG);
 	}
 	.photo5 {
-		background-image: url(../images/DSC04247.jpg);
+		background-image: url(../images/galeria/f05.JPG);
 	}
 	.photo6 {
-		background-image: url(../images/DSC04258.jpg);
+		background-image: url(../images/galeria/f06.JPG);
 	}
 	.photo7 {
-		background-image: url(../images/DSC04263.jpg);
+		background-image: url(../images/galeria/f07.JPG);
 	}
 
 	.photo8 {
-		background-image: url(../images/DSC04277.jpg);
+		background-image: url(../images/galeria/f08.JPG);
+	}
+	.photo9 {
+		background-image: url(../images/galeria/f09.JPG);
+	}
+	.photo10 {
+		background-image: url(../images/galeria/f010.JPG);
+	}
+	.photo11 {
+		background-image: url(../images/galeria/f011.JPG);
+	}
+	.photo12 {
+		background-image: url(../images/galeria/f012.JPG);
+	}
+	.photo13 {
+		background-image: url(../images/galeria/f013.JPG);
+	}
+	.photo14 {
+		background-image: url(../images/galeria/f014.JPG);
+	}
+	.photo15 {
+		background-image: url(../images/galeria/f015.JPG);
+	}
+	.photo16 {
+		background-image: url(../images/galeria/f016.JPG);
 	}
 
 	#footer {
@@ -693,19 +727,19 @@ a {
 	}
 
 	.box3 {
-		background-image: url(../images/VYBORBAhh.png);
+		background-image: url(../images/lasermark.jpg);
 		background-size: cover;
 		background-position: center;
 	}
 
 	.box2 {
-		background-image: url(../images/dizajn.jpg);
+		background-image: url(../images/dizajn.PNG);
 		background-size: cover;
 		background-position: center;
 	}
 
 	.box1 {
-		background-image: url(../images/DSC04258.jpg);
+		background-image: url(../images/vyroba.JPG);
 		background-size: cover;
 		background-position: center;
 	}
@@ -767,7 +801,7 @@ a {
 	.box-about2 div {
 		width: 450px;
 		height: 270px;
-		background-image: url(../images/DSC03450.JPG);
+		background-image: url(../images/freza_wm.JPG);
 		background-size: cover;
 		transition: 0.3s ease-out;
 	}
@@ -782,7 +816,7 @@ a {
 	#technology {
 		width: 100%;
 		height: 60%;
-		background-image: url(../images/VYBORBA.png);
+		background-image: url(../images/napis.jpg);
 		background-size: 300%;
 		background-position: center;
 		margin-top: 10%;
@@ -818,7 +852,7 @@ a {
 
 	#photogalery {
 		width: 100%;
-		height: 100%;
+		height: 200%;
 	}
 
 	.box-photogalery {
@@ -845,15 +879,18 @@ a {
 
 	.box-photos {
 		width: 100%;
-		height: 40%;
+		height: 20%;
 		display: flex;
 		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
 		flex-wrap: wrap;
 	}
 
 	.photo {
-		width: 50%;
-		height: 50%;
+		width: 45%;
+		height: 45%;
+		margin: 10px 0;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -862,13 +899,12 @@ a {
 
 	.photo p {
 		font-family: "Montserrat";
-		font-size: 20px;
+		font-size: 25px;
 		color: white;
 		position: absolute;
 
 		transition: 0.2s ease;
-		top: 20%;
-		opacity: 0;
+		top: 60%;
 	}
 
 	.photo1,
@@ -878,38 +914,69 @@ a {
 	.photo5,
 	.photo6,
 	.photo7,
-	.photo8 {
+	.photo8,
+	.photo9,
+	.photo10,
+	.photo11,
+	.photo12,
+	.photo13,
+	.photo14,
+	.photo15,
+	.photo16 {
 		background-size: cover;
 		background-position: center;
 	}
-
 	.photo1 {
-		background-image: url(../images/DSC04209.jpg);
+		background-image: url(../images/galeria/f01.JPG);
 	}
 
 	.photo2 {
-		background-image: url(../images/DSC04217.jpg);
+		background-image: url(../images/galeria/f02.JPG);
 	}
 
 	.photo3 {
-		background-image: url(../images/DSC04239.jpg);
+		background-image: url(../images/galeria/f03.JPG);
 	}
 
 	.photo4 {
-		background-image: url(../images/DSC04246.jpg);
+		background-image: url(../images/galeria/f04.JPG);
 	}
 	.photo5 {
-		background-image: url(../images/DSC04247.jpg);
+		background-image: url(../images/galeria/f05.JPG);
 	}
 	.photo6 {
-		background-image: url(../images/DSC04258.jpg);
+		background-image: url(../images/galeria/f06.JPG);
 	}
 	.photo7 {
-		background-image: url(../images/DSC04263.jpg);
+		background-image: url(../images/galeria/f07.JPG);
 	}
 
 	.photo8 {
-		background-image: url(../images/DSC04277.jpg);
+		background-image: url(../images/galeria/f08.JPG);
+	}
+	.photo9 {
+		background-image: url(../images/galeria/f09.JPG);
+	}
+	.photo10 {
+		background-image: url(../images/galeria/f010.JPG);
+	}
+	.photo11 {
+		background-image: url(../images/galeria/f011.JPG);
+	}
+	.photo12 {
+		background-image: url(../images/galeria/f012.JPG);
+	}
+	.photo13 {
+		background-image: url(../images/galeria/f013.JPG);
+	}
+	.photo14 {
+		background-image: url(../images/galeria/f014.JPG);
+	}
+	.photo15 {
+		background-image: url(../images/galeria/f015.JPG);
+	}
+	.photo16 {
+		background-image: url(../images/galeria/f016.JPG);
 	}
 
 	#footer {
@@ -1135,19 +1202,19 @@ a {
 	}
 
 	.box3 {
-		background-image: url(../images/VYBORBAhh.png);
+		background-image: url(../images/lasermark.jpg);
 		background-size: cover;
 		background-position: center;
 	}
 
 	.box2 {
-		background-image: url(../images/dizajn.jpg);
+		background-image: url(../images/dizajn.PNG);
 		background-size: cover;
 		background-position: center;
 	}
 
 	.box1 {
-		background-image: url(../images/DSC04258.jpg);
+		background-image: url(../images/vyroba.JPG);
 		background-size: cover;
 		background-position: center;
 	}
@@ -1212,7 +1279,7 @@ a {
 	.box-about2 div {
 		width: 350px;
 		height: 170px;
-		background-image: url(../images/DSC03450.JPG);
+		background-image: url(../images/freza_wm.JPG);
 		background-size: cover;
 		transition: 0.3s ease-out;
 	}
@@ -1226,7 +1293,7 @@ a {
 	#technology {
 		width: 100%;
 		height: 60%;
-		background-image: url(../images/VYBORBA.png);
+		background-image: url(../images/napis.jpg);
 		background-size: 100%;
 		background-position: center;
 		margin-top: 10%;
@@ -1262,7 +1329,7 @@ a {
 
 	#photogalery {
 		width: 100%;
-		height: 130%;
+		height: 250%;
 	}
 
 	.box-photogalery {
@@ -1292,15 +1359,18 @@ a {
 
 	.box-photos {
 		width: 100%;
-		height: 30%;
+		height: 17%;
 		display: flex;
 		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
 		flex-wrap: wrap;
 	}
 
 	.photo {
-		width: 25%;
-		height: 100%;
+		width: 23%;
+		height: 98%;
+		margin: 10px 0;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -1313,8 +1383,7 @@ a {
 		color: white;
 		position: absolute;
 		transition: 0.2s ease;
-		top: 20%;
-		opacity: 0;
+		top: 60%;
 	}
 
 	.photo1,
@@ -1324,38 +1393,70 @@ a {
 	.photo5,
 	.photo6,
 	.photo7,
-	.photo8 {
+	.photo8,
+	.photo9,
+	.photo10,
+	.photo11,
+	.photo12,
+	.photo13,
+	.photo14,
+	.photo15,
+	.photo16 {
 		background-size: cover;
 		background-position: center;
 	}
 
 	.photo1 {
-		background-image: url(../images/DSC04209.jpg);
+		background-image: url(../images/galeria/f01.JPG);
 	}
 
 	.photo2 {
-		background-image: url(../images/DSC04217.jpg);
+		background-image: url(../images/galeria/f02.JPG);
 	}
 
 	.photo3 {
-		background-image: url(../images/DSC04239.jpg);
+		background-image: url(../images/galeria/f03.JPG);
 	}
 
 	.photo4 {
-		background-image: url(../images/DSC04246.jpg);
+		background-image: url(../images/galeria/f04.JPG);
 	}
 	.photo5 {
-		background-image: url(../images/DSC04247.jpg);
+		background-image: url(../images/galeria/f05.JPG);
 	}
 	.photo6 {
-		background-image: url(../images/DSC04258.jpg);
+		background-image: url(../images/galeria/f06.JPG);
 	}
 	.photo7 {
-		background-image: url(../images/DSC04263.jpg);
+		background-image: url(../images/galeria/f07.JPG);
 	}
 
 	.photo8 {
-		background-image: url(../images/DSC04277.jpg);
+		background-image: url(../images/galeria/f08.JPG);
+	}
+	.photo9 {
+		background-image: url(../images/galeria/f09.JPG);
+	}
+	.photo10 {
+		background-image: url(../images/galeria/f010.JPG);
+	}
+	.photo11 {
+		background-image: url(../images/galeria/f011.JPG);
+	}
+	.photo12 {
+		background-image: url(../images/galeria/f012.JPG);
+	}
+	.photo13 {
+		background-image: url(../images/galeria/f013.JPG);
+	}
+	.photo14 {
+		background-image: url(../images/galeria/f014.JPG);
+	}
+	.photo15 {
+		background-image: url(../images/galeria/f015.JPG);
+	}
+	.photo16 {
+		background-image: url(../images/galeria/f016.JPG);
 	}
 
 	#footer {
@@ -1579,19 +1680,19 @@ a {
 	}
 
 	.box3 {
-		background-image: url(../images/VYBORBAhh.png);
+		background-image: url(../images/lasermark.jpg);
 		background-size: cover;
 		background-position: center;
 	}
 
 	.box2 {
-		background-image: url(../images/dizajn.jpg);
+		background-image: url(../images/dizajn.PNG);
 		background-size: cover;
 		background-position: center;
 	}
 
 	.box1 {
-		background-image: url(../images/DSC04258.jpg);
+		background-image: url(../images/vyroba.JPG);
 		background-size: cover;
 		background-position: center;
 	}
@@ -1656,7 +1757,7 @@ a {
 	.box-about2 div {
 		width: 550px;
 		height: 270px;
-		background-image: url(../images/DSC03450.JPG);
+		background-image: url(../images/freza_wm.JPG);
 		background-size: cover;
 		transition: 0.3s ease-out;
 	}
@@ -1670,7 +1771,7 @@ a {
 	#technology {
 		width: 100%;
 		height: 40%;
-		background-image: url(../images/VYBORBA.png);
+		background-image: url(../images/napis.jpg);
 		background-size: 100%;
 		background-position: center;
 		margin-top: 10%;
@@ -1699,14 +1800,14 @@ a {
 		font-family: "Montserrat";
 		margin-left: 5%;
 		font-size: 15px;
-		width: 70%;
+		max-width: 70%;
 		color: white;
 		transition: 0.3s ease-out;
 	}
 
 	#photogalery {
 		width: 100%;
-		height: 130%;
+		height: 250%;
 	}
 
 	.box-photogalery {
@@ -1736,15 +1837,19 @@ a {
 
 	.box-photos {
 		width: 100%;
-		height: 30%;
+		height: 17%;
 		display: flex;
 		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+
 		flex-wrap: wrap;
 	}
 
 	.photo {
-		width: 25%;
-		height: 100%;
+		width: 23%;
+		height: 95%;
+		margin: 10px 0;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -1757,8 +1862,7 @@ a {
 		color: white;
 		position: absolute;
 		transition: 0.2s ease;
-		top: 20%;
-		opacity: 0;
+		top: 60%;
 	}
 
 	.photo1,
@@ -1768,38 +1872,70 @@ a {
 	.photo5,
 	.photo6,
 	.photo7,
-	.photo8 {
+	.photo8,
+	.photo9,
+	.photo10,
+	.photo11,
+	.photo12,
+	.photo13,
+	.photo14,
+	.photo15,
+	.photo16 {
 		background-size: cover;
 		background-position: center;
 	}
 
 	.photo1 {
-		background-image: url(../images/DSC04209.jpg);
+		background-image: url(../images/galeria/f01.JPG);
 	}
 
 	.photo2 {
-		background-image: url(../images/DSC04217.jpg);
+		background-image: url(../images/galeria/f02.JPG);
 	}
 
 	.photo3 {
-		background-image: url(../images/DSC04239.jpg);
+		background-image: url(../images/galeria/f03.JPG);
 	}
 
 	.photo4 {
-		background-image: url(../images/DSC04246.jpg);
+		background-image: url(../images/galeria/f04.JPG);
 	}
 	.photo5 {
-		background-image: url(../images/DSC04247.jpg);
+		background-image: url(../images/galeria/f05.JPG);
 	}
 	.photo6 {
-		background-image: url(../images/DSC04258.jpg);
+		background-image: url(../images/galeria/f06.JPG);
 	}
 	.photo7 {
-		background-image: url(../images/DSC04263.jpg);
+		background-image: url(../images/galeria/f07.JPG);
 	}
 
 	.photo8 {
-		background-image: url(../images/DSC04277.jpg);
+		background-image: url(../images/galeria/f08.JPG);
+	}
+	.photo9 {
+		background-image: url(../images/galeria/f09.JPG);
+	}
+	.photo10 {
+		background-image: url(../images/galeria/f010.JPG);
+	}
+	.photo11 {
+		background-image: url(../images/galeria/f011.JPG);
+	}
+	.photo12 {
+		background-image: url(../images/galeria/f012.JPG);
+	}
+	.photo13 {
+		background-image: url(../images/galeria/f013.JPG);
+	}
+	.photo14 {
+		background-image: url(../images/galeria/f014.JPG);
+	}
+	.photo15 {
+		background-image: url(../images/galeria/f015.JPG);
+	}
+	.photo16 {
+		background-image: url(../images/galeria/f016.JPG);
 	}
 
 	#footer {
