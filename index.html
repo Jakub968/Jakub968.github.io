@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack Hydrospol</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="animation()">
+    <div id="loadingScreen">
+        <iframe class="logo" src="assets/images/pva_hydrospol_logo.svg" frameborder="0"></iframe>
+
+    </div>
+    <div class="bgCover">
+
+    </div>
+    <header id="header">
+        <img src="assets/images/logoPva.png" alt="">
+        <ul>
+            <a href=""><li>Hack</li></a>
+            <a href="#parameters"><li>Features</li></a>
+            <a href=""><li>Suppliers</li></a>
+            <a href=""><li>Contact</li></a>
+        </ul>
+
+    </header>
+    <main id="main">
+        <div class="main-left">
+            <iframe src='https://my.spline.design/untitledcopycopycopy-f8f93f21af6134c222da3287ac9c0c3d/' frameborder='0' width='100%' height='100%'></iframe>
+
+        </div>
+        <div class="main-right">
+            <h1>New Hack</h1>
+            <h5>Can already be found in your local Store</h5>
+            <p>universal tool for cutting boilies. Quickly and easily with one press. And most importantly you can replace parts which means no more buying new ones!!</p>
+            <a href=""><div><p>Contact Manufacturing</p></div></a>
+        </div>   
+    </main>
+    <div class="moodboard">
+        <div class="moodboard-left">
+            <img class="paper1" src="assets/images/HackVykres1.jpg" alt="">
+            <img class="paper2" src="assets/images/HackVykres2.jpg" alt="">
+            <img class="paper3" src="assets/images/HackVykres3.jpg" alt="">
+        </div>
+        <div class="moodboard-right">
+            <!-- <img src="assets/images/hackPart1.png" alt=""> -->
+        </div>
+
+    </div>
+    <div id="parameters">
+        <div class="parameters-left">
+            <video id="video" controls src="./assets/videos/KRIMI.mp4"></video>
+
+        </div>
+        <div class="parameters-right">
+            <h1>HACK</h1>
+            <h4>Cutter Boilies</h4>
+            <p>For boilies with a diameter <br>
+               from <span>20</span> to <span>25</span> mm
+            </p>
+            <div class="parameters-box">
+                <div class="video1"><div onclick="video1()"></div></div>
+                <div class="video2"><div onclick="video2()"></div></div>
+                <div class="video3"><div onclick="video3()"></div></div>
+                <div class="video4">
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <h1 id="sellerText">Can be found already in your fishery</h1>
+    <script src="assets/script/paper.js"></script>
+    <script src="assets/script/videos.js"></script>
+    <script src="assets/script/logo.js"></script>
+    <script>
+        const loaderContainer = document.querySelector('#loadingScreen')
+        const logoPva = document.querySelector('.logo')
+
+        window.addEventListener('load', () => {
+            loaderContainer.classList.add('notVisible')
+            logoPva.classList.add('notVisible')
+        })
+
+    </script>
+</body>
+</html>
