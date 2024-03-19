@@ -6,9 +6,15 @@
     <title>Hack Hydrospol</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body onload="animation()">
-    <div id="loadingScreen">
-        <iframe class="logo" src="assets/images/pva_hydrospol_logo.svg" frameborder="0"></iframe>
+<body >
+    <div class="mobileMenu">
+        <img onclick="menuMobileHide()" class="x" src="assets/images/X.png" alt="">
+        <ul>
+            <a onclick="menuMobileHide()" href="#main" class="hidden"><li>Hack</li></a>
+            <a onclick="menuMobileHide()" href="#parameters" class="hidden-left dealay1"><li>Features</li></a>
+            <a onclick="menuMobileHide()" href="" class="hidden dealay2"><li>Suppliers</li></a>
+            <a onclick="menuMobileHide()" href="" class="hidden-left dealay3"><li>Contact</li></a>
+        </ul>
 
     </div>
     <div class="bgCover">
@@ -17,11 +23,12 @@
     <header id="header">
         <img src="assets/images/logoPva.png" alt="">
         <ul>
-            <a href=""><li>Hack</li></a>
-            <a href="#parameters"><li>Features</li></a>
-            <a href=""><li>Suppliers</li></a>
-            <a href=""><li>Contact</li></a>
+            <a href="" class="hidden"><li>Hack</li></a>
+            <a href="#parameters" class="hidden dealay1"><li>Features</li></a>
+            <a href="" class="hidden dealay2"><li>Suppliers</li></a>
+            <a href="" class="hidden dealay3"><li>Contact</li></a>
         </ul>
+        <img onclick="menuMobileShow()" class="hamburger" src="assets/images/HAMBURGER_MENU-512.png" alt="">
 
     </header>
     <main id="main">
@@ -30,10 +37,10 @@
 
         </div>
         <div class="main-right">
-            <h1>New Hack</h1>
-            <h5>Can already be found in your local Store</h5>
-            <p>universal tool for cutting boilies. Quickly and easily with one press. And most importantly you can replace parts which means no more buying new ones!!</p>
-            <a href=""><div><p>Contact Manufacturing</p></div></a>
+            <h1 class="hidden ">New Hack</h1>
+            <h5 class="hidden dealay1">Can already be found in your local Store</h5>
+            <p class="hidden dealay2">universal tool for cutting boilies. Quickly and easily with one press. And most importantly you can replace parts which means no more buying new ones!!</p>
+            <a class="hidden dealay3" href=""><div><p>Contact Manufacturing</p></div></a>
         </div>   
     </main>
     <div class="moodboard">
@@ -43,13 +50,17 @@
             <img class="paper3" src="assets/images/HackVykres3.jpg" alt="">
         </div>
         <div class="moodboard-right">
-            <!-- <img src="assets/images/hackPart1.png" alt=""> -->
+            <img class="hackPart1" src="assets/images/hackPart1.png" alt="">
+            <img class="hackPart2" src="assets/images/hackPart2.png" alt="">
+            <img class="hackPart3" src="assets/images/hackPart3.png" alt="">
+            <img class="hackPart4" src="assets/images/hackPart4.png" alt="">
+            <img class="hackPart5" src="assets/images/hackPart5.png" alt="">
         </div>
 
     </div>
     <div id="parameters">
         <div class="parameters-left">
-            <video id="video" controls src="./assets/videos/KRIMI.mp4"></video>
+            <video id="video" controls src="./assets/videos/BLENDER.mp4"></video>
 
         </div>
         <div class="parameters-right">
@@ -59,12 +70,10 @@
                from <span>20</span> to <span>25</span> mm
             </p>
             <div class="parameters-box">
-                <div class="video1"><div onclick="video1()"></div></div>
-                <div class="video2"><div onclick="video2()"></div></div>
-                <div class="video3"><div onclick="video3()"></div></div>
-                <div class="video4">
-                    
-                </div>
+                <div class="video1"><div class="playback" onclick="video1()" ></div></div>
+                <div class="video2"><div  class="playback" onclick="video2()"></div></div>
+                <div class="video3"><div  class="playback" onclick="video3()"></div></div>
+                <div class="video4"><div  class="playback" onclick="video4()"></div></div>
             </div>
 
         </div>
@@ -72,16 +81,7 @@
     <h1 id="sellerText">Can be found already in your fishery</h1>
     <script src="assets/script/paper.js"></script>
     <script src="assets/script/videos.js"></script>
-    <script src="assets/script/logo.js"></script>
-    <script>
-        const loaderContainer = document.querySelector('#loadingScreen')
-        const logoPva = document.querySelector('.logo')
-
-        window.addEventListener('load', () => {
-            loaderContainer.classList.add('notVisible')
-            logoPva.classList.add('notVisible')
-        })
-
-    </script>
+    <script src="assets/script/app.js"></script>
+    <script src="assets/script/mobilemenu.js"></script>
 </body>
 </html>
