@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hack Hydrospol</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./assets/images/logoPva.png">
     <meta name="google" content="notranslate">
 </head>
 <body >
@@ -13,8 +14,8 @@
         <ul>
             <a onclick="menuMobileHide()" href="#main" class="hidden"><li>Hack</li></a>
             <a onclick="menuMobileHide()" href="#parameters" class="hidden-left dealay1"><li>Features</li></a>
-            <a onclick="menuMobileHide()" href="" class="hidden dealay2"><li>Suppliers</li></a>
-            <a onclick="menuMobileHide()" href="" class="hidden-left dealay3"><li>Contact</li></a>
+            <a onclick="menuMobileHide()" href="#distribution" class="hidden dealay2"><li>Suppliers</li></a>
+            <a onclick="menuMobileHide()" href="#manufacturing" class="hidden-left dealay3"><li>Contact</li></a>
         </ul>
 
     </div>
@@ -24,10 +25,10 @@
     <header id="header">
         <img src="assets/images/logoPva.png" alt="">
         <ul>
-            <a href="" class="hidden"><li>Hack</li></a>
+            <a href="#main" class="hidden"><li>Hack</li></a>
             <a href="#parameters" class="hidden dealay1"><li>Features</li></a>
-            <a href="" class="hidden dealay2"><li>Suppliers</li></a>
-            <a href="" class="hidden dealay3"><li>Contact</li></a>
+            <a href="#distribution" class="hidden dealay2"><li>Suppliers</li></a>
+            <a href="#manufacturing" class="hidden dealay3"><li>Contact</li></a>
         </ul>
         <img onclick="menuMobileShow()" class="hamburger" src="assets/images/HAMBURGER_MENU-512.png" alt="">
 
@@ -41,7 +42,7 @@
             <h1 class="hidden ">New Hack</h1>
             <h5 class="hidden dealay1">Can already be found in your local Store</h5>
             <p class="hidden dealay2">universal tool for cutting boilies. Quickly and easily with one press. And most importantly you can replace parts which means no more buying new ones!!</p>
-            <a class="hidden dealay3" href=""><div><p>Contact Manufacturing</p></div></a>
+            <a class="hidden dealay3" href="#manufacturing"><div><p>Contact Manufacturing</p></div></a>
         </div>   
     </main>
     <div class="moodboard">
@@ -65,16 +66,16 @@
 
         </div>
         <div class="parameters-right">
-            <h1>HACK</h1>
-            <h4>Cutter Boilies</h4>
-            <p>For boilies with a diameter <br>
+            <h1 class="hidden">HACK</h1>
+            <h4 class="hidden-left">Cutter Boilies</h4>
+            <p class="hidden">For boilies with a diameter <br>
                from <span>20</span> to <span>25</span> mm
             </p>
             <div class="parameters-box">
-                <div class="video1"><div class="playback" onclick="video1()" ></div></div>
-                <div class="video2"><div  class="playback" onclick="video2()"></div></div>
-                <div class="video3"><div  class="playback" onclick="video3()"></div></div>
-                <div class="video4"><div  class="playback" onclick="video4()"></div></div>
+                <div  class="video1 hidden"><div class="playback" onclick="video1()" ></div></div>
+                <div  class="video2 hidden delay1"><div  class="playback" onclick="video2()"></div></div>
+                <div  class="video3 hidden delay2"><div  class="playback" onclick="video3()"></div></div>
+                <div  class="video4 hidden delay3"><div  class="playback" onclick="video4()"></div></div>
             </div>
 
         </div>
