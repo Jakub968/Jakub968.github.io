@@ -19,6 +19,7 @@ body {
 	background-color: rgb(11, 11, 11);
 	scroll-behavior: smooth;
 	
+	
 }
 
 li {
@@ -304,6 +305,7 @@ a {
 		font-size: 100px;
 		font-weight: 700;
 		margin-top: 5vh;
+		max-width: 100vw;
 	}
 	
 	.parameters-right h4{
@@ -312,6 +314,7 @@ a {
 		font-size: 40px;
 		font-weight: 500;
 		margin-bottom: 3vh;
+		max-width: 100vw;
 	}
 	
 	.parameters-right p {
@@ -377,14 +380,104 @@ a {
 		background-image: url(../assets/images/KRIMI3.jpg);
 	
 	}
+
+
+	.distribution-manufacturing-h1{
+		max-width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
 	
-	#sellerText{
+	.distribution-manufacturing-h1 h1:last-child{
 		font-family: "montserrat", sans-serif;
+		max-width: 50%;
 		color: #e60c80;
-		font-size: 60px;
+		font-size: 30px;
 		font-weight: 700;
 		margin-top: 20vh ;
 		text-align: center;
+	}
+
+	.distribution-manufacturing-h1 h1:first-child{
+		display: none;
+	}
+
+	#distribution-manufacturing{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.distribution{
+		min-height: 20vh;
+		display: flex;
+		flex-direction: row;
+		overflow-x: scroll;
+		margin-bottom: 10vh;
+		padding: 0 10%;
+	}
+
+	.distribution-box{
+		width: 50%;
+		min-height: 30vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0 5vh;
+	}
+
+	.distribution-box img{
+		max-width: 10vw;
+		margin: 0 5vw;
+	}
+
+	.distribution-box h4{
+		font-family: "montserrat", sans-serif;
+		color: #ffffff;
+		font-size: 20px;
+		font-weight: 500;
+		margin-bottom: 2vh;
+		margin-top: 1vh;
+		text-align: center;
+	}
+
+	.distribution-box p{
+		font-family: "montserrat", sans-serif;
+		color: #ffffff;
+		font-size: 15px;
+		font-weight: 500;
+		text-align: center;
+	}
+
+	#manufacturing{
+		min-width: 50vw;
+		min-height: 30vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 5vh;
+	}
+
+	#manufacturing img{
+		height: 40%;
+	}
+
+	#manufacturing  h4{
+		font-family: "montserrat", sans-serif;
+		color: #ffffff;
+		font-size: 20px;
+		font-weight: 500;
+		margin: 20px 0 10px 0;
+
+	}
+
+	#manufacturing  p{
+		font-family: "montserrat", sans-serif;
+		color: #ffffff;
+		font-size: 15px;
+		font-weight: 500;
 	}
 }
 
@@ -400,6 +493,14 @@ a {
 		display: none;
 		z-index: -100;
 	
+	}
+
+	.mobileMenu{
+		display: none;
+	}
+
+	.hamburger{
+		display: none;
 	}
 	
 	#loadingScreen iframe{
@@ -520,6 +621,7 @@ a {
 		background-position: center;
 		z-index: -1s;
 		box-shadow: inset 0px 100px 50px rgb(11, 11, 11);
+		cursor: url('../assets/images/mouse.png'), auto;
 	}
 	
 	.moodboard-left {
@@ -604,8 +706,11 @@ a {
 	
 	#parameters{
 		width: 100%;
-		box-shadow: 1px -50px 4px 10px rgb(11, 11, 11);
+		min-height: 100vh;
+		/* box-shadow: 1px -50px 4px 10px rgb(11, 11, 11); */
 		display: flex;
+		background-image: url(../assets/images/bgHack.png);
+		background-size: cover;
 	}
 	
 	.parameters-left{
@@ -618,6 +723,7 @@ a {
 	
 	.parameters-left video{
 		height: 70vh;
+		box-shadow: 0 0 10px black;
 	}
 	
 	.parameters-right{
@@ -707,14 +813,96 @@ a {
 		background-image: url(../assets/images/KRIMI3.jpg);
 	
 	}
+
+	.distribution-manufacturing-h1{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
 	
-	#sellerText{
+	.distribution-manufacturing-h1 h1{
 		font-family: "montserrat", sans-serif;
+		width: 50%;
 		color: #e60c80;
 		font-size: 60px;
 		font-weight: 700;
 		margin-top: 20vh ;
 		text-align: center;
+	}
+
+	#distribution-manufacturing{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.distribution{
+		min-height: 50vh;
+		display: flex;
+		flex-direction: row;
+		overflow-x: scroll;
+	}
+
+	.distribution-box{
+		width: 20%;
+		min-height: 50vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0 3vh;
+	}
+
+	.distribution-box img{
+		max-width: 10vw;
+		margin: 0 5vw;
+	}
+
+	.distribution-box h4{
+		font-family: "montserrat", sans-serif;
+		color: #ffffff;
+		font-size: 20px;
+		font-weight: 500;
+		margin-bottom: 2vh;
+		margin-top: 1vh;
+		text-align: center;
+	}
+
+	.distribution-box p{
+		font-family: "montserrat", sans-serif;
+		color: #ffffff;
+		font-size: 15px;
+		font-weight: 500;
+		text-align: center;
+	}
+
+	#manufacturing{
+		min-width: 50vw;
+		height: 50vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#manufacturing img{
+		height: 40%;
+	}
+
+	#manufacturing  h4{
+		font-family: "montserrat", sans-serif;
+		color: #ffffff;
+		font-size: 20px;
+		font-weight: 500;
+		margin: 20px 0 10px 0;
+
+	}
+
+	#manufacturing  p{
+		font-family: "montserrat", sans-serif;
+		color: #ffffff;
+		font-size: 15px;
+		font-weight: 500;
 	}
 }
 .hidden {
@@ -748,3 +936,25 @@ a {
 .delay3 {
 	transition-delay: 600ms;
 }
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track { 
+	border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #e60c80; 
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #e60c808e; 
+  }
