@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="icon" href="images/icon.png">
+    <title>Služby</title>
+</head>
+<body>
+  <div class="mobileMenu">
+    <img onclick="menuMobileHide()" class="x" src="images/X.png" alt="">
+    <ul>
+        <a onclick="menuMobileHide()" href="index.html" class="hidden"><li>Domov</li></a>
+        <a onclick="menuMobileHide()" href="about.html" class="hidden-left dealay1"><li>O nás</li></a>
+        <a onclick="menuMobileHide()" href="services.html" class="hidden dealay2"><li>Služby</li></a>
+        <a onclick="menuMobileHide()" href="galery.html" class="hidden-left dealay3"><li>Z tvorby</li></a>
+        <a onclick="menuMobileHide()" href="contact.html" class="hidden-left dealay3"><li>Kontakt</li></a>
+    </ul>
+  </div>
+  <header id="header">
+      <img id="logo" src="images/logo short.png" alt="" />
+      <ul>
+        <a href="index.html"><li>Domov</li></a>
+        <a href="about.html"><li>O nás</li></a>
+        <a href="services.html"><li style="border-bottom: 1px solid black;">Služby</li></a>
+        <a href="galery.html"><li>Z tvorby</li></a>
+        <a href="contact.html"><li>Kontakt</li></a>
+      </ul>
+      <img onclick="menuMobileShow()" class="hamburger" src="images/HAMBURGER_MENU-512.png" alt="">
+    </header>
+    <div id="service1">
+      <div class="service-left">
+          <h5 class="num-bg">01</h5>
+          <h1 class="serviceHeading hidden">Kuchyne</h1>
+          <p class="serviceText hidden-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi harum consequatur explicabo quaerat saepe distinctio dolorum,</p>
+          <a href=""><div class="button hidden"><p>Získaj bezplatnú cenovú ponuku</p></div></a>
+          <div class='arrows'>
+              <img onclick="num()" src="images/arrow.png" alt="">
+              <img onclick="numNegative()" src="images/arrow.png" alt="">
+          </div>
+      </div>
+      <div  class="service-right">
+        <img id="img0" src="images/kuchyna3.jpg" alt="">
+        <img id="img1"  src="images/policka1.jpg" alt="">
+        <img id="img2" src="images/dvere3.jpg" alt="">
+
+      </div>
+
+    </div>
+    
+
+    
+    <script src="script/scrollService.js"></script>
+    <script src="script/app.js"></script>
+    <script src="script/mobilemenu.js"></script>
+
+    
+</body>
+</html>
