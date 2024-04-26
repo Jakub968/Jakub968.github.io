@@ -194,7 +194,7 @@ a {
   }
   
   .service3 {
-    background-image: url(../images/0021-MONTREAL0005-Gemiddeld.png);
+    background-image: url(../images/schody1.jpg);
   }
   
   .service4 {
@@ -642,7 +642,7 @@ a {
   }
   
   .service3 {
-    background-image: url(../images/0021-MONTREAL0005-Gemiddeld.png);
+    background-image: url(../images/schody1.jpg);
   }
   
   .service4 {
@@ -1058,19 +1058,24 @@ a {
   }
   
   .service1 {
-    background-image: url(../images/zariadenie_kuchyne_na_mieru_b_bfc372a0e32c85fc.png);
+    background-image: url(../images/kuchyna3.jpg);
+    background-position: center 70%;
   }
   
   .service2 {
-    background-image: url(../images/janosik_na_titulku.png);
+    background-image: url(../images/policka4.jpg);
+    background-size: cover;
+    background-position: center 55%;
   }
   
   .service3 {
-    background-image: url(../images/0021-MONTREAL0005-Gemiddeld.png);
+    background-image: url(../images/schody2.jpg);
+    background-size: cover;
   }
   
   .service4 {
-    background-image: url(../images/interierove-dvere.png);
+    background-image: url(../images/dvere4.jpg);
+    background-size: cover;
     border: none;
   }
   
@@ -1480,19 +1485,24 @@ a {
   }
   
   .service1 {
-    background-image: url(../images/zariadenie_kuchyne_na_mieru_b_bfc372a0e32c85fc.png);
+    background-image: url(../images/kuchyna3.jpg);
+    background-position: center 70%;
   }
   
   .service2 {
-    background-image: url(../images/janosik_na_titulku.png);
+    background-image: url(../images/policka4.jpg);
+    background-size: cover;
+    background-position: center 55%;
   }
   
   .service3 {
-    background-image: url(../images/0021-MONTREAL0005-Gemiddeld.png);
+    background-image: url(../images/schody2.jpg);
+    background-size: cover;
   }
   
   .service4 {
-    background-image: url(../images/interierove-dvere.png);
+    background-image: url(../images/dvere4.jpg);
+    background-size: cover;
     border: none;
   }
   

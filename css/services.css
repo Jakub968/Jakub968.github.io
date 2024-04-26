@@ -137,8 +137,13 @@ a {
     transition: 0.2s ease;
   }
   
-  #img1, #img2{
+  #img1, #img2, #img3{
     opacity: 0;
+  }
+
+  .service-right #img3{
+    width: 100%;
+    height: fit-content;
   }
   
   
@@ -149,7 +154,7 @@ a {
   .service-left h1{
     font-family: "montserrat", sans-serif;  
     color: white;
-    font-size: 70px;
+    font-size: 60px;
     width: 45vw;
     z-index: 1;
     margin-bottom: 2vh;
@@ -312,8 +317,13 @@ a {
     transition: 0.2s ease;
   }
   
-  #img1, #img2{
+  #img1, #img2, #img3{
     opacity: 0;
+  }
+
+  .service-right #img3{
+    width: 100%;
+    height: fit-content;
   }
   
   
@@ -468,12 +478,17 @@ a {
     transition: 0.2s ease;
   }
   
-  #img1, #img2{
+  #img1, #img2, #img3{
     opacity: 0;
   }
   
   #img2{
-    width: 70vw;
+    left: 30%;
+  }
+
+  .service-right #img3{
+    width: 80%;
+    height: fit-content;
   }
   
   .service-left .num-bg{
@@ -628,13 +643,20 @@ a {
     transition: 0.2s ease;
   }
   
-  #img1, #img2{
+  #img1, #img2, #img3{
     opacity: 0;
   }
   
   #img2{
     width: 70vw;
   }
+
+  .service-right #img3{
+    width: 80%;
+    height: fit-content;
+  }
+
+ 
   
   .service-left .num-bg{
     color: #675854;
