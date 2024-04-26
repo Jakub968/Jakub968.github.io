@@ -7,6 +7,7 @@ let div = document.getElementsByClassName('service-left')
 let bg0 = document.getElementById('img0')
 let bg1 = document.getElementById('img1')
 let bg2 = document.getElementById('img2')
+let bg3 = document.getElementById('img3')
 
 
 
@@ -16,14 +17,15 @@ let bg2 = document.getElementById('img2')
 
 function num() {
     number++
-    if (number > 2) {
-        number = 2
+    if (number > 3) {
+        number = 3
         return(number)
     }
     if (number === 0) {
         bg0.style.opacity = '1'
         bg1.style.opacity = '0'
         bg2.style.opacity = '0'
+        bg3.style.opacity = '0'
     
         heading[0].innerHTML = 'Kuchyne'
         text[0].innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi harum consequatur explicabo quaerat saepe distinctio dolorum'
@@ -36,6 +38,7 @@ function num() {
         bg0.style.opacity = '0'
         bg1.style.opacity = '1'
         bg2.style.opacity = '0'
+        bg3.style.opacity = '0'
     
         heading[0].innerHTML = 'Nábytok'
         text[0].innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi harum consequatur explicabo quaerat saepe distinctio dolorum'
@@ -48,12 +51,27 @@ function num() {
         bg0.style.opacity = '0'
         bg1.style.opacity = '0'
         bg2.style.opacity = '1'
+        bg3.style.opacity = '0'
     
         heading[0].innerHTML = 'Dvere'
         text[0].innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi harum consequatur explicabo quaerat saepe distinctio dolorum'
         numBg[0].innerHTML = '03'
         numBg[0].style.color = '#372d2d'
         div[0].style.background = '#231f1c'
+        
+    }
+
+    if (number === 3) {
+        bg0.style.opacity = '0'
+        bg1.style.opacity = '0'
+        bg2.style.opacity = '0'
+        bg3.style.opacity = '1'
+    
+        heading[0].innerHTML = 'Schodiská'
+        text[0].innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi harum consequatur explicabo quaerat saepe distinctio dolorum'
+        numBg[0].innerHTML = '04'
+        numBg[0].style.color = '#592b03'
+        div[0].style.background = '#442001'
         
     }
     return(number)
@@ -71,6 +89,7 @@ function numNegative() {
         bg0.style.opacity = '1'
         bg1.style.opacity = '0'
         bg2.style.opacity = '0'
+        bg3.style.opacity = '0'
     
         heading[0].innerHTML = 'Kuchyne'
         text[0].innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi harum consequatur explicabo quaerat saepe distinctio dolorum,'
@@ -83,6 +102,7 @@ function numNegative() {
         bg0.style.opacity = '0'
         bg1.style.opacity = '1'
         bg2.style.opacity = '0'
+        bg3.style.opacity = '0'
     
         heading[0].innerHTML = 'Nábytok'
         text[0].innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi harum consequatur explicabo quaerat saepe distinctio dolorum,'
@@ -95,12 +115,27 @@ function numNegative() {
         bg0.style.opacity = '0'
         bg1.style.opacity = '0'
         bg2.style.opacity = '1'
+        bg3.style.opacity = '0'
     
         heading[0].innerHTML = 'Dvere'
         text[0].innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi harum consequatur explicabo quaerat saepe distinctio dolorum,'
         numBg[0].innerHTML = '03'
         numBg[0].style.color = '#372d2d'
         div[0].style.background = '#231f1c'
+        
+    }
+
+    if (number === 3) {
+        bg0.style.opacity = '0'
+        bg1.style.opacity = '0'
+        bg2.style.opacity = '0'
+        bg3.style.opacity = '1'
+    
+        heading[0].innerHTML = 'Schodiská'
+        text[0].innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi harum consequatur explicabo quaerat saepe distinctio dolorum,'
+        numBg[0].innerHTML = '04'
+        numBg[0].style.color = '#592b03'
+        div[0].style.background = '#442001'
         
     }
     return(number)
