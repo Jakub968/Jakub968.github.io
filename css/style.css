@@ -250,6 +250,15 @@ a {
   .service-button p {
     margin: 0;
   }
+
+  .service-button a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
   #about {
     width: 100%;
@@ -698,6 +707,15 @@ a {
   .service-button p {
     margin: 0;
   }
+
+  .service-button a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
   #about {
     width: 100%;
@@ -1123,6 +1141,15 @@ a {
     justify-content: center;
     align-items: center;
   }
+
+  .service-button a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
   .service-button p {
     margin: 0;
@@ -1537,6 +1564,16 @@ a {
     line-height: 25px;
     max-width: 40vw;
     margin-bottom: 3vh;
+  }
+
+  
+  .service-button a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .service-button {

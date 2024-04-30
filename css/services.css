@@ -75,7 +75,7 @@ a {
     top: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 0 5%;
   }
@@ -104,7 +104,7 @@ a {
   
   .service-left{
     width: 100%;
-    height: 60vh;
+    min-height: 60vh;
     background-color: #444648;
     display: flex;
     flex-direction: column;
@@ -163,8 +163,8 @@ a {
   .service-left p{
     font-family: "montserrat", sans-serif;  
     color: white;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 12px;
+    line-height: 20px;
     width: 90vw;
     z-index: 1;
     transition: 0.8s ease;
@@ -175,14 +175,17 @@ a {
     z-index: 2;
   }
   .button{
-    min-width: 50vw;
+    min-width: 80vw;
     border: 2px solid white;
     z-index: 150;
     margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
   
   .button p{
-    max-width: 50vw;
+    max-width: 70vw;
     padding: 10px;
     text-align: center;
   }
@@ -507,7 +510,7 @@ a {
   .service-left h1{
     font-family: "montserrat", sans-serif;  
     color: white;
-    font-size: 120px;
+    font-size: 80px;
     width: 45vw;
     z-index: 1;
     margin-bottom: 5vh;
@@ -528,10 +531,12 @@ a {
     z-index: 2;
   }
   .button{
-    min-width: 10vw;
+    min-width: 30vw;
     border: 2px solid white;
     z-index: 150;
     margin-top: 5vh;
+    display: flex;
+    justify-content: center;
   }
   
   .button p{
