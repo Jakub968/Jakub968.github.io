@@ -8,7 +8,7 @@
     <link rel="icon" href="images/icon.png">
     <script defer src="script/app.js"></script>
   </head>
-  <body>
+  <body onload="localStorage.getItem('furniture-number') = -1">
     <div class="mobileMenu">
       <img onclick="menuMobileHide()" class="x" src="images/X.png" alt="">
       <ul>
@@ -54,12 +54,15 @@
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
               nam blanditiis obcaecati voluptates.
             </p>
-            <div class="service-button">
-              <p>Kontakt</p>
+            <div id="kitchen"  class="service-button">
+              <a href="services.html">
+                <p> Viac</p>
+              </a>
+              
             </div>
           </div>
         </div>
-        <div class="service opacityVisibility service2">
+        <div  class="service opacityVisibility service2">
           <div class="service-cover">
             <h4>Nábytok</h4>
             <p>
@@ -67,7 +70,10 @@
               nam blanditiis obcaecati voluptates.
             </p>
             <div class="service-button">
-              <p>Kontakt</p>
+              <a id="furniture" href="services.html">
+                <p> Viac</p>
+              </a>
+              
             </div>
           </div>
         </div>
@@ -79,7 +85,10 @@
               nam blanditiis obcaecati voluptates.
             </p>
             <div class="service-button">
-              <p>Kontakt</p>
+              <a id="stairs" href="services.html">
+                <p> Viac</p>
+              </a>
+              
             </div>
           </div>
         </div>
@@ -91,23 +100,30 @@
               nam blanditiis obcaecati voluptates.
             </p>
             <div class="service-button">
-              <p>Kontakt</p>
+              <a id="door" href="services.html">
+                <p> Viac</p>
+              </a>
+              
             </div>
           </div>
         </div>
       </div>
     </div>
     <div id="about">
-        <h2>O nás</h2>
+        <h2>Zmena sa začína u nás</h2>
         <div class="about-left">
           <video controls src="images/final2.mp4"></video>
 
         </div>
         <div class="about-right ">
-            <p class="hidden-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quae aut voluptate harum commodi, illo quia reprehenderit unde nostrum assumenda quas nesciunt error consectetur aliquid, quisquam tempore asperiores esse quaerat.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque id explicabo vel aliquid ea, sunt, facere veritatis laborum itaque quidem deserunt corporis pariatur et eligendi tempore quo beatae laboriosam quibusdam.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum eveniet cum beatae eum odit blanditiis omnis quidem totam, voluptatibus recusandae assumenda nostrum molestiae architecto neque atque in incidunt, odio eligendi!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores reprehenderit non delectus inventore error accusantium quas beatae numquam, rem tempora magnam cumque illo officiis. Eveniet accusantium aut autem quos dolore.
+            <p class="hidden-left">...Vyberte sa s nami na cestu k dokonalému domovu. Budeme vašim spoľahlivým partnerom v tvorbe <br> <br>
+              jedinečných riešení pre vašu domácnosť.
+              Špecializujeme sa na výrobu kvalitného nábytku na mieru, interiérových prvkov, schodísk, aj atypických
+              komponentov do domácností presne podľa vašich individuálnych predstáv. <br> <br>
+
+              Náš tím tvoria najlepší odborníci v oblasti dizajnu a tvorby nábytku. Zanietenie pre remeslo, precíznosť a
+              schopnosť pracovať s najnovšími technológiami a materiálmi nám umožňuje prekonať aj najnáročnejšie
+              úlohy. Pre nás nie sú zložité veci prekážkou, ale výzvou. <a style="color: rgb(34, 113, 224);" href="about.html"><strong>viac...</strong> </a>
             </p>
         </div>
     </div>
@@ -264,6 +280,42 @@
     <script src="script/services.js"></script>
     <!-- <script src="script/photosLoop.js"></script> -->
     <script src="script/galery.js"></script>
+
+    <script>
+      const kitchen = document.getElementById('kitchen')
+      const furniture = document.getElementById('furniture')
+      const stairs = document.getElementById('stairs')
+      const door = document.getElementById('door')
+
+      kitchen.addEventListener('click', function () {
+
+        const furnitureNumber = -1
+
+        localStorage.setItem('furniture-number', furnitureNumber)
+      })
+
+      furniture.addEventListener('click', function () {
+
+        const furnitureNumber = 0
+
+        localStorage.setItem('furniture-number', furnitureNumber)
+      })
+
+      door.addEventListener('click', function () {
+
+        const furnitureNumber = 1
+
+        localStorage.setItem('furniture-number', furnitureNumber)
+      })
+
+      stairs.addEventListener('click', function () {
+
+        const furnitureNumber = 2
+
+        localStorage.setItem('furniture-number', furnitureNumber)
+      })
+
+    </script>
     
   </body>
 </html>
