@@ -1,0 +1,349 @@
+@import url("https://fonts.cdnfonts.com/css/mont");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,80");
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#bgWeb {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	background-image: url(../images/webDevBg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#loadingScreen {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 5;
+	background-color: rgb(17, 17, 19);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.notVisible {
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s ease;
+}
+
+#Layer_2 {
+	width: 300px;
+	overflow: visible;
+}
+
+.path2 {
+	fill: transparent;
+	stroke-width: 10;
+	stroke: white;
+	stroke-dasharray: 2400;
+
+	animation: 2s ease-in-out infinite alternate spinner;
+}
+
+@keyframes spinner {
+	from {
+		stroke-dashoffset: 2400;
+	}
+
+	to {
+		stroke-dashoffset: 0;
+		fill: white;
+	}
+}
+
+#header {
+	width: 100%;
+	min-height: 10vb;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5%;
+	position: fixed;
+	z-index: 2;
+	/* background-color: rgb(17, 17, 19); */
+}
+
+#header ul {
+	display: flex;
+	flex-direction: row;
+}
+
+#header ul li {
+	color: white;
+	font-family: "montserrat";
+	margin: 0 30px;
+	font-size: 15px;
+}
+
+#Layer_1 {
+	width: 60px;
+	overflow: visible;
+}
+
+.path1 {
+	fill: transparent;
+	stroke-width: 20;
+	stroke: rgb(36, 103, 179);
+	stroke-dasharray: 2400;
+	stroke-dashoffset: 2400;
+	transition: 01s ease;
+}
+
+#main {
+	width: 100%;
+	min-height: 100vh;
+}
+
+.main-box {
+	width: 80%;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 20vh 0 10vh 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.main-box h1 {
+	color: white;
+	font-family: "montserrat";
+	font-size: 50px;
+}
+
+.main-box p {
+	color: rgba(255, 255, 255, 0.867);
+	font-family: "montserrat";
+	font-size: 18px;
+	max-width: 50vw;
+	margin: 2vh 0 20vh 0;
+	line-height: 25px;
+}
+
+.main-box div {
+	width: 400px;
+	border: 2px solid white;
+	border-radius: 25px;
+}
+
+.main-box div p {
+	margin: 10px 0;
+	color: white;
+	font-family: "montserrat";
+	font-size: 20px;
+	text-align: center;
+}
+
+#benefits {
+	background-color: rgb(17, 17, 19);
+}
+
+.benefit1,
+.benefit2 {
+	width: 100vw;
+	min-height: 50vh;
+	padding: 0 30vh;
+	display: flex;
+}
+
+.benefit2 {
+	flex-direction: row-reverse;
+}
+
+.benefit-left {
+	width: 70vw;
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.benefit-left h4 {
+	color: white;
+	font-family: "montserrat";
+	font-size: 30px;
+	margin-bottom: 5vh;
+}
+
+.benefit-left p {
+	color: white;
+	font-family: "montserrat";
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.benefit-right {
+	width: 30vw;
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.benefit2 .benefit-right {
+	align-items: flex-start;
+}
+
+.benefit-right p {
+	color: white;
+	font-family: "montserrat";
+	font-size: 250px;
+}
+
+#portfolio {
+	width: 100%;
+}
+
+#portfolio h2 {
+	color: white;
+	font-family: "montserrat";
+	font-size: 50px;
+	text-align: center;
+	padding: 10vh 0;
+}
+
+.portfolio1 {
+	display: flex;
+	flex-direction: row;
+}
+
+.portfolio-left {
+	width: 50%;
+	min-height: 80vh;
+	position: relative;
+	z-index: 1;
+}
+
+.homeAutospa {
+	max-height: 70vh;
+	position: absolute;
+	bottom: 50px;
+	left: 300px;
+	z-index: 2;
+	box-shadow: -3px 5px 20px rgba(0, 0, 0, 0.409);
+}
+
+.contactAutospa {
+	max-height: 70vh;
+	position: absolute;
+	bottom: 10px;
+	left: 100px;
+}
+
+.portfolio-right {
+	width: 50%;
+	min-height: 80vh;
+	padding-top: 5vh;
+	padding-right: 5%;
+}
+
+.portfolio-right h4 {
+	color: white;
+	font-family: "montserrat";
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.portfolio-tags {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 30vw;
+}
+
+.portfolio-tags p {
+	color: white;
+	font-family: "montserrat";
+	font-size: 15px;
+	padding: 10px 20px;
+	margin: 5px 10px;
+	background-color: rgba(255, 255, 255, 0.114);
+}
+
+.portfolio-text {
+	color: white;
+	font-family: "montserrat";
+	font-size: 18px;
+	line-height: 25px;
+	margin-top: 10vh;
+}
+
+.portfolio-right a div p {
+	color: rgb(0, 0, 0);
+	font-family: "montserrat";
+	font-size: 20px;
+}
+
+.portfolio-right a div {
+	width: 20vw;
+	min-height: 7vh;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10vh;
+}
+
+#procces {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgb(17, 17, 19);
+	padding: 0 5vw;
+}
+
+#procces h2 {
+	color: white;
+	font-family: "montserrat";
+	font-size: 50px;
+	text-align: center;
+	padding: 10vh 0;
+	width: 100%;
+}
+
+#procces div {
+	width: 50%;
+	min-height: 40vh;
+	padding: 0 10vh;
+}
+
+#procces div h4 {
+	color: white;
+	font-family: "montserrat";
+	font-size: 30px;
+	margin-bottom: 5vh;
+}
+
+#procces div p {
+	color: white;
+	font-family: "montserrat";
+	font-size: 15px;
+	line-height: 25px;
+}

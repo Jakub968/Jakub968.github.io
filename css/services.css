@@ -1,0 +1,1370 @@
+@import url("https://fonts.cdnfonts.com/css/mont");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,80");
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	background-color: rgb(17, 17, 19);
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*###########################################################################################  */
+/*#########################################mobile############################################  */
+/*###########################################################################################  */
+
+@media screen and (max-width: 480px) {
+	#loadingScreen {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		background-color: rgb(17, 17, 19);
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.notVisible {
+		opacity: 0;
+		visibility: hidden;
+		transition: 0.5s ease;
+	}
+
+	#Layer_2 {
+		width: 300px;
+		overflow: visible;
+	}
+
+	.path2 {
+		fill: transparent;
+		stroke-width: 10;
+		stroke: white;
+		stroke-dasharray: 2400;
+
+		animation: 2s ease-in-out infinite alternate spinner;
+	}
+
+	@keyframes spinner {
+		from {
+			stroke-dashoffset: 2400;
+		}
+
+		to {
+			stroke-dashoffset: 0;
+			fill: white;
+		}
+	}
+
+	#header {
+		width: 100%;
+		min-height: 10vb;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 5%;
+		position: fixed;
+		z-index: 2;
+		/* background-color: rgb(17, 17, 19); */
+	}
+
+	#header ul {
+		display: flex;
+		flex-direction: row;
+		display: none;
+	}
+
+	#header ul li {
+		color: white;
+		font-family: "montserrat";
+		margin: 0 30px;
+		font-size: 15px;
+	}
+
+	#Layer_1 {
+		width: 60px;
+		overflow: visible;
+	}
+
+	.path1 {
+		fill: transparent;
+		stroke-width: 20;
+		stroke: rgb(36, 103, 179);
+		stroke-dasharray: 2400;
+		stroke-dashoffset: 2400;
+		transition: 01s ease;
+	}
+
+	#main {
+		width: 100%;
+		min-height: 100vh;
+		background-image: url(../images/Untitled-1.jpg);
+		background-size: cover;
+		background-position: 60%;
+		box-shadow: 0 -10px 25px black;
+	}
+
+	.main-box {
+		width: 80%;
+		min-height: 100vh;
+		margin: 0 auto;
+		padding: 20vh 0 10vh 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.main-box h1 {
+		color: white;
+		font-family: "montserrat";
+		font-size: 30px;
+	}
+
+	.main-box p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		margin: 2vh 0 20vh 0;
+	}
+
+	.main-box div {
+		max-width: 300px;
+		border: 2px solid white;
+		border-radius: 25px;
+	}
+
+	.main-box div p {
+		margin: 10px 0;
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		text-align: center;
+	}
+
+	#services {
+		width: 100%;
+	}
+
+	.webDevelopment,
+	.socSiete,
+	.video,
+	.foto {
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 50px 0;
+	}
+
+	.serviceBox {
+		width: 80vw;
+		min-height: 70vh;
+		border-left: 2px solid white;
+		padding: 20px;
+	}
+
+	.webColumn1 {
+		width: 100%;
+		min-height: 10vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.webColumn1 h2 {
+		color: white;
+		font-family: "montserrat";
+		font-size: 40px;
+		font-weight: 500;
+	}
+
+	.webColumn1 div {
+		display: none;
+	}
+
+	.webColumn2 {
+		width: 100%;
+		min-height: 40vh;
+		display: flex;
+		flex-direction: column;
+		padding-top: 5vh;
+	}
+
+	.webColumn2 p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		font-weight: 500;
+		max-width: 90%;
+		margin-right: 5vw;
+		line-height: 25px;
+	}
+
+	.webColumn2 ul {
+		margin: 20px 0;
+	}
+
+	.webColumn2 li {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		font-weight: 600;
+		margin: 0 0 10px 0;
+	}
+
+	.webColumn3 {
+		width: 100%;
+		min-height: 10vh;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.webColumn3 a div p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+	}
+
+	.webColumn3 a:first-child {
+		width: 30vw;
+		min-height: 10vh;
+		background-color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.webColumn3 a:last-child {
+		width: 30vw;
+		min-height: 10vh;
+		border: 2px white solid;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#footer {
+		width: 100%;
+		height: 80%;
+		padding: 0 5%;
+	}
+
+	.top-footer {
+		width: 100%;
+		height: 10%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.top-footer img {
+		height: 30%;
+	}
+
+	.mid-footer {
+		width: 100%;
+		height: 85%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		position: relative;
+	}
+
+	.mid-left {
+		width: 50%;
+		height: 30%;
+	}
+
+	.mid-left p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 12px;
+		line-height: 15px;
+		font-weight: 400;
+	}
+
+	.mid-mid {
+		width: 50%;
+		height: 30%;
+	}
+
+	.mid-mid a {
+		color: white;
+		font-family: "montserrat";
+		font-size: 12px;
+		margin: 10px 0;
+		font-weight: 400;
+		display: block;
+	}
+
+	.mid-right {
+		width: 100%;
+		height: 30%;
+		position: absolute;
+		bottom: 0;
+	}
+
+	.mid-right a {
+		color: white;
+		font-family: "montserrat";
+		font-size: 12px;
+		margin: 10px 0;
+		font-weight: 400;
+		display: block;
+	}
+
+	.mid-footer h6 {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		font-weight: 400;
+		margin: 0 0 20px 0;
+	}
+
+	.bottom-footer {
+		width: 100%;
+		height: 5%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-left: 5%;
+	}
+
+	.bottom-footer p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 12px;
+		font-weight: 400;
+		width: 90%;
+	}
+}
+
+/*###########################################################################################  */
+/*#########################################tablet############################################  */
+/*###########################################################################################  */
+
+@media screen and (max-width: 1024px) and (min-width: 481px) {
+	#loadingScreen {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		background-color: rgb(17, 17, 19);
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.notVisible {
+		opacity: 0;
+		visibility: hidden;
+		transition: 0.5s ease;
+	}
+
+	#Layer_2 {
+		width: 300px;
+		overflow: visible;
+	}
+
+	.path2 {
+		fill: transparent;
+		stroke-width: 10;
+		stroke: white;
+		stroke-dasharray: 2400;
+
+		animation: 2s ease-in-out infinite alternate spinner;
+	}
+
+	@keyframes spinner {
+		from {
+			stroke-dashoffset: 2400;
+		}
+
+		to {
+			stroke-dashoffset: 0;
+			fill: white;
+		}
+	}
+
+	#header {
+		width: 100%;
+		min-height: 10vb;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 5%;
+		position: fixed;
+		z-index: 2;
+		/* background-color: rgb(17, 17, 19); */
+	}
+
+	#header ul {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#header ul li {
+		color: white;
+		font-family: "montserrat";
+		margin: 0 30px;
+		font-size: 15px;
+	}
+
+	#Layer_1 {
+		width: 60px;
+		overflow: visible;
+	}
+
+	.path1 {
+		fill: transparent;
+		stroke-width: 20;
+		stroke: rgb(36, 103, 179);
+		stroke-dasharray: 2400;
+		stroke-dashoffset: 2400;
+		transition: 01s ease;
+	}
+
+	#main {
+		width: 100%;
+		min-height: 100vh;
+		background-image: url(../images/Untitled-1.jpg);
+		background-size: cover;
+		background-position: center;
+		box-shadow: 0 -10px 25px black;
+	}
+
+	.main-box {
+		width: 80%;
+		min-height: 100vh;
+		margin: 0 auto;
+		padding: 20vh 0 10vh 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.main-box h1 {
+		color: white;
+		font-family: "montserrat";
+		font-size: 50px;
+	}
+
+	.main-box p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		margin: 2vh 0 20vh 0;
+	}
+
+	.main-box div {
+		width: 300px;
+		border: 2px solid white;
+		border-radius: 25px;
+	}
+
+	.main-box div p {
+		margin: 10px 0;
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		text-align: center;
+	}
+
+	#services {
+		width: 100%;
+	}
+
+	.webDevelopment,
+	.socSiete,
+	.video,
+	.foto {
+		width: 100%;
+		min-height: 90vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.serviceBox {
+		width: 80vw;
+		min-height: 70vh;
+		border-left: 2px solid white;
+		padding: 20px;
+	}
+
+	.webColumn1 {
+		width: 100%;
+		min-height: 10vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.webColumn1 h2 {
+		color: white;
+		font-family: "montserrat";
+		font-size: 60px;
+		font-weight: 500;
+	}
+
+	.webColumn1 div {
+		width: 45vw;
+		height: 1px;
+		background-color: white;
+	}
+
+	.webColumn2 {
+		width: 100%;
+		min-height: 40vh;
+		display: flex;
+		flex-direction: row;
+		padding-top: 5vh;
+	}
+
+	.webColumn2 p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		font-weight: 500;
+		max-width: 60%;
+		margin-right: 5vw;
+		line-height: 25px;
+	}
+
+	.webColumn2 li {
+		color: white;
+		font-family: "montserrat";
+		font-size: 25px;
+		font-weight: 600;
+		margin: 0 0 10px 0;
+	}
+
+	.webColumn3 {
+		width: 100%;
+		min-height: 5vh;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.webColumn3 a div p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+	}
+
+	.webColumn3 a:first-child {
+		width: 30vw;
+		min-height: 5vh;
+		background-color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.webColumn3 a:last-child {
+		width: 30vw;
+		min-height: 5vh;
+		border: 2px white solid;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#footer {
+		width: 100%;
+		height: 30%;
+		padding: 0 5%;
+	}
+
+	.top-footer {
+		width: 100%;
+		height: 20%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.top-footer img {
+		height: 30%;
+	}
+
+	.mid-footer {
+		width: 100%;
+		height: 70%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.mid-left {
+		width: 30%;
+		height: 100%;
+	}
+
+	.mid-left p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		line-height: 15px;
+		font-weight: 400;
+	}
+
+	.mid-mid {
+		width: 30%;
+		height: 100%;
+	}
+
+	.mid-mid a {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		margin: 10px 0;
+		font-weight: 400;
+		display: block;
+	}
+
+	.mid-right {
+		width: 30%;
+		height: 100%;
+	}
+
+	.mid-right a {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		margin: 10px 0;
+		font-weight: 400;
+		display: block;
+	}
+
+	.mid-footer h6 {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		font-weight: 400;
+		margin: 0 0 20px 0;
+	}
+
+	.bottom-footer {
+		width: 100%;
+		height: 10%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.bottom-footer p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		font-weight: 400;
+	}
+}
+
+/*###########################################################################################  */
+/*#########################################notebook##########################################  */
+/*###########################################################################################  */
+
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+	#loadingScreen {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		background-color: rgb(17, 17, 19);
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.notVisible {
+		opacity: 0;
+		visibility: hidden;
+		transition: 0.5s ease;
+	}
+
+	#Layer_2 {
+		width: 300px;
+		overflow: visible;
+	}
+
+	.path2 {
+		fill: transparent;
+		stroke-width: 10;
+		stroke: white;
+		stroke-dasharray: 2400;
+
+		animation: 2s ease-in-out infinite alternate spinner;
+	}
+
+	@keyframes spinner {
+		from {
+			stroke-dashoffset: 2400;
+		}
+
+		to {
+			stroke-dashoffset: 0;
+			fill: white;
+		}
+	}
+
+	#header {
+		width: 100%;
+		min-height: 10vb;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 5%;
+		position: fixed;
+		z-index: 2;
+		/* background-color: rgb(17, 17, 19); */
+	}
+
+	#header ul {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#header ul li {
+		color: white;
+		font-family: "montserrat";
+		margin: 0 30px;
+		font-size: 15px;
+	}
+
+	#Layer_1 {
+		width: 60px;
+		overflow: visible;
+	}
+
+	.path1 {
+		fill: transparent;
+		stroke-width: 20;
+		stroke: rgb(36, 103, 179);
+		stroke-dasharray: 2400;
+		stroke-dashoffset: 2400;
+		transition: 01s ease;
+	}
+
+	#main {
+		width: 100%;
+		min-height: 100vh;
+		background-image: url(../images/Untitled-1.jpg);
+		background-size: cover;
+		background-position: center;
+		box-shadow: 0 -10px 25px black;
+	}
+
+	.main-box {
+		width: 80%;
+		min-height: 100vh;
+		margin: 0 auto;
+		padding: 20vh 0 10vh 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.main-box h1 {
+		color: white;
+		font-family: "montserrat";
+		font-size: 50px;
+	}
+
+	.main-box p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		margin: 2vh 0 20vh 0;
+	}
+
+	.main-box div {
+		width: 300px;
+		border: 2px solid white;
+		border-radius: 25px;
+	}
+
+	.main-box div p {
+		margin: 10px 0;
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		text-align: center;
+	}
+
+	#services {
+		width: 100%;
+	}
+
+	.webDevelopment,
+	.socSiete,
+	.video,
+	.foto {
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.serviceBox {
+		width: 80vw;
+		min-height: 70vh;
+		border-left: 2px solid white;
+		padding: 20px;
+	}
+
+	.webColumn1 {
+		width: 100%;
+		min-height: 10vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.webColumn1 h2 {
+		color: white;
+		font-family: "montserrat";
+		font-size: 40px;
+		font-weight: 500;
+	}
+
+	.webColumn1 div {
+		width: 45vw;
+		height: 1px;
+		background-color: white;
+	}
+
+	.webColumn2 {
+		width: 100%;
+		min-height: 40vh;
+		display: flex;
+		flex-direction: row;
+		padding-top: 5vh;
+	}
+
+	.webColumn2 p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		font-weight: 500;
+		max-width: 50%;
+		margin-right: 5vw;
+		line-height: 25px;
+	}
+
+	.webColumn2 li {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		font-weight: 600;
+		margin: 0 0 10px 0;
+	}
+
+	.webColumn3 {
+		width: 100%;
+		min-height: 10vh;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.webColumn3 a div p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+	}
+
+	.webColumn3 a:first-child {
+		width: 15vw;
+		min-height: 10vh;
+		background-color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.webColumn3 a:last-child {
+		width: 15vw;
+		min-height: 10vh;
+		border: 2px white solid;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#footer {
+		width: 100%;
+		height: 60%;
+		padding: 0 5%;
+	}
+
+	.top-footer {
+		width: 100%;
+		height: 20%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.top-footer img {
+		height: 30%;
+	}
+
+	.mid-footer {
+		width: 100%;
+		height: 70%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.mid-left {
+		width: 30%;
+		height: 100%;
+	}
+
+	.mid-left p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		line-height: 15px;
+		font-weight: 400;
+	}
+
+	.mid-mid {
+		width: 30%;
+		height: 100%;
+	}
+
+	.mid-mid a {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		margin: 10px 0;
+		font-weight: 400;
+		display: block;
+	}
+
+	.mid-right {
+		width: 30%;
+		height: 100%;
+	}
+
+	.mid-right a {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		margin: 10px 0;
+		font-weight: 400;
+		display: block;
+	}
+
+	.mid-footer h6 {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		font-weight: 400;
+		margin: 0 0 20px 0;
+	}
+
+	.bottom-footer {
+		width: 100%;
+		height: 10%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.bottom-footer p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		font-weight: 400;
+	}
+}
+
+/*###########################################################################################  */
+/*#########################################pc##########################################  */
+/*###########################################################################################  */
+
+@media screen and (min-width: 1401px) {
+	#loadingScreen {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: 5;
+		background-color: rgb(17, 17, 19);
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.notVisible {
+		opacity: 0;
+		visibility: hidden;
+		transition: 0.5s ease;
+	}
+
+	#Layer_2 {
+		width: 300px;
+		overflow: visible;
+	}
+
+	.path2 {
+		fill: transparent;
+		stroke-width: 10;
+		stroke: white;
+		stroke-dasharray: 2400;
+
+		animation: 2s ease-in-out infinite alternate spinner;
+	}
+
+	@keyframes spinner {
+		from {
+			stroke-dashoffset: 2400;
+		}
+
+		to {
+			stroke-dashoffset: 0;
+			fill: white;
+		}
+	}
+
+	#header {
+		width: 100%;
+		min-height: 10vb;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 5%;
+		position: fixed;
+		z-index: 2;
+		/* background-color: rgb(17, 17, 19); */
+	}
+
+	#header ul {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#header ul li {
+		color: white;
+		font-family: "montserrat";
+		margin: 0 30px;
+		font-size: 15px;
+	}
+
+	#Layer_1 {
+		width: 60px;
+		overflow: visible;
+	}
+
+	.path1 {
+		fill: transparent;
+		stroke-width: 20;
+		stroke: rgb(36, 103, 179);
+		stroke-dasharray: 2400;
+		stroke-dashoffset: 2400;
+		transition: 01s ease;
+	}
+
+	#main {
+		width: 100%;
+		min-height: 100vh;
+		background-image: url(../images/Untitled-1.jpg);
+		background-size: cover;
+		background-position: center;
+		box-shadow: 0 -10px 25px black;
+	}
+
+	.main-box {
+		width: 80%;
+		min-height: 100vh;
+		margin: 0 auto;
+		padding: 20vh 0 10vh 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.main-box h1 {
+		color: white;
+		font-family: "montserrat";
+		font-size: 50px;
+	}
+
+	.main-box p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		margin: 2vh 0 20vh 0;
+	}
+
+	.main-box div {
+		width: 300px;
+		border: 2px solid white;
+		border-radius: 25px;
+	}
+
+	.main-box div p {
+		margin: 10px 0;
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		text-align: center;
+	}
+
+	#services {
+		width: 100%;
+	}
+
+	.webDevelopment,
+	.socSiete,
+	.video,
+	.foto {
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.serviceBox {
+		width: 80vw;
+		min-height: 70vh;
+		border-left: 2px solid white;
+		padding: 20px;
+	}
+
+	.webColumn1 {
+		width: 100%;
+		min-height: 10vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.webColumn1 h2 {
+		color: white;
+		font-family: "montserrat";
+		font-size: 60px;
+		font-weight: 500;
+	}
+
+	.webColumn1 div {
+		width: 45vw;
+		height: 1px;
+		background-color: white;
+	}
+
+	.webColumn2 {
+		width: 100%;
+		min-height: 40vh;
+		display: flex;
+		flex-direction: row;
+		padding-top: 5vh;
+	}
+
+	.webColumn2 p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		font-weight: 500;
+		max-width: 50%;
+		margin-right: 5vw;
+		line-height: 25px;
+	}
+
+	.webColumn2 li {
+		color: white;
+		font-family: "montserrat";
+		font-size: 30px;
+		font-weight: 600;
+		margin: 0 0 10px 0;
+	}
+
+	.webColumn3 {
+		width: 100%;
+		min-height: 7vh;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.webColumn3 a div p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+	}
+
+	.webColumn3 a:first-child {
+		width: 15vw;
+		min-height: 5vh;
+		background-color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.webColumn3 a:last-child {
+		width: 15vw;
+		min-height: 5vh;
+		border: 2px white solid;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#footer {
+		width: 100%;
+		height: 40%;
+		padding: 0 5%;
+		margin-top: 10%;
+	}
+
+	.top-footer {
+		width: 100%;
+		height: 20%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.top-footer img {
+		height: 30%;
+	}
+
+	.mid-footer {
+		width: 100%;
+		height: 70%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.mid-left {
+		width: 30%;
+		height: 100%;
+	}
+
+	.mid-left p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		line-height: 15px;
+		font-weight: 400;
+	}
+
+	.mid-mid {
+		width: 30%;
+		height: 100%;
+	}
+
+	.mid-mid a {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		margin: 10px 0;
+		font-weight: 400;
+		display: block;
+	}
+
+	.mid-right {
+		width: 30%;
+		height: 100%;
+	}
+
+	.mid-right a {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		margin: 10px 0;
+		font-weight: 400;
+		display: block;
+	}
+
+	.mid-footer h6 {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		font-weight: 400;
+		margin: 0 0 20px 0;
+	}
+
+	.bottom-footer {
+		width: 100%;
+		height: 10%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.bottom-footer p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		font-weight: 400;
+	}
+}
+
+.hidden {
+	opacity: 0;
+	transition: all 1s;
+	filter: blur(5px);
+	transform: translateX(-100%);
+}
+
+.hidden-left {
+	opacity: 0;
+	transition: all 1s;
+	filter: blur(5px);
+	transform: translateX(100%);
+}
+
+.show {
+	opacity: 1;
+	filter: blur(0px);
+	transform: translateX(0%);
+}
+
+.delay1 {
+	transition-delay: 200ms;
+}
+
+.delay2 {
+	transition-delay: 400ms;
+}

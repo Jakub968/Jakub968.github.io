@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Domov</title>
+
+    <script defer src="script/app.js"></script>
+</head>
+<body onload="animation()">
+    <div id="loadingScreen">
+        <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1062 765.07">
+            <path class="path2" d="M309.84,684.43h-149.77c-37.19,0-65.68-6.37-85.5-19.1-19.8-12.73-29.71-33.05-29.71-60.94s9.91-47.6,29.71-60.33c19.81-12.73,48.31-19.1,85.5-19.1h64.57v-36.99h-50.01c-33.96,0-60.33-6.46-79.13-19.4-18.8-12.94-28.19-32.14-28.19-57.6s9.4-45.17,28.19-57.91c18.8-12.73,45.17-19.1,79.13-19.1h135.21l7.13-.65c6.92,0,5.19.51,13.75.51s15.66.08,23.99.08v-36.93h-183.12c-47.3,0-83.98,9.5-110.05,28.5-26.07,19.01-39.11,45.88-39.11,80.64,0,23.04,5.36,42.44,16.07,58.21,10.71,15.76,25.27,27.69,43.66,35.78,1.71.75,3.45,1.43,5.18,2.11-8.98,1.99-17.4,4.6-25.19,7.89-19.6,8.29-34.86,20.62-45.78,36.99-10.91,16.37-16.37,36.68-16.37,60.94,0,35.98,13.24,63.87,39.72,83.68,26.48,19.81,66.4,29.71,119.75,29.71h195.24v-37.12" />
+            <path class="path2" d="M468.46,490.28h124.57v37.96h-124.57v-37.96Z" />
+            <path class="path2" d="M746.24,297.65l291.06,366.38h-19.28v-366.38h43.99v421.82s-36.76,0-36.76,0l-278.4-358.35" />
+            <path class="path2" d="M398.83,297.64h249.24v37.96h-249.24v-37.96Z" />
+            <path class="path2" d="M359.02,297.08v423.82s-42.08,0-42.08,0v-423.82s42.08,0,42.08,0Z" />
+            <path class="path2" d="M420.02,684.8h221.02v37.96h-221.02v-37.96Z" />
+            <path class="path2" d="M747.2,298.01v425.16s-43.94,0-43.94,0v-425.16s43.94,0,43.94,0Z" />
+          </svg>
+    </div>
+   
+    <header id="header">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1062 765.07">
+            <path class="path1" d="M309.84,684.43h-149.77c-37.19,0-65.68-6.37-85.5-19.1-19.8-12.73-29.71-33.05-29.71-60.94s9.91-47.6,29.71-60.33c19.81-12.73,48.31-19.1,85.5-19.1h64.57v-36.99h-50.01c-33.96,0-60.33-6.46-79.13-19.4-18.8-12.94-28.19-32.14-28.19-57.6s9.4-45.17,28.19-57.91c18.8-12.73,45.17-19.1,79.13-19.1h135.21l7.13-.65c6.92,0,5.19.51,13.75.51s15.66.08,23.99.08v-36.93h-183.12c-47.3,0-83.98,9.5-110.05,28.5-26.07,19.01-39.11,45.88-39.11,80.64,0,23.04,5.36,42.44,16.07,58.21,10.71,15.76,25.27,27.69,43.66,35.78,1.71.75,3.45,1.43,5.18,2.11-8.98,1.99-17.4,4.6-25.19,7.89-19.6,8.29-34.86,20.62-45.78,36.99-10.91,16.37-16.37,36.68-16.37,60.94,0,35.98,13.24,63.87,39.72,83.68,26.48,19.81,66.4,29.71,119.75,29.71h195.24v-37.12" />
+            <path class="path1" d="M468.46,490.28h124.57v37.96h-124.57v-37.96Z" />
+            <path class="path1" d="M746.24,297.65l291.06,366.38h-19.28v-366.38h43.99v421.82s-36.76,0-36.76,0l-278.4-358.35" />
+            <path class="path1" d="M398.83,297.64h249.24v37.96h-249.24v-37.96Z" />
+            <path class="path1" d="M359.02,297.08v423.82s-42.08,0-42.08,0v-423.82s42.08,0,42.08,0Z" />
+            <path class="path1" d="M420.02,684.8h221.02v37.96h-221.02v-37.96Z" />
+            <path class="path1" d="M747.2,298.01v425.16s-43.94,0-43.94,0v-425.16s43.94,0,43.94,0Z" />
+          </svg>
+        <ul>
+            <a href="index.html" class="hidden-left"><li>Domov</li></a>
+            <a href="about.html" class="hidden-left"><li>O nás</li></a>
+            <a href="services.html" class="hidden-left"><li>Služby</li></a>
+            <a href="" class="hidden-left"><li>Portfólio</li></a>
+            <a href="" class="hidden-left"><li>Kontakt</li></a>
+        </ul>
+
+    </header>
+    <div id="main">
+        <div class="main-box">
+            <h1>Digitálna produkcia</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique soluta dolorum </p>
+
+        </div>
+
+    </div>
+    <div id="about"> 
+        <div class="about-left">
+            <div class="about-left-box">
+
+            </div>
+        </div>
+        <div class="about-right">
+            <div class="about-right-box">
+                <h5 class="hidden ">O nás</h5>
+                <h2 class="hidden delay1">Lorem ipsum dolor sit, amet consectetur adipisicing elit</h2>
+                <p class="hidden delay2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, consequuntur corporis? Voluptate, quae corporis quidem fugiat debitis adipisci asperiores tempora? Aliquam non provident commodi repellendus soluta harum veniam voluptatum reprehenderit?</p>
+                <a href=""><div class="hidden delay2"><p>viac</p></div></a>
+
+            </div>
+        </div>
+
+    </div>
+    <div id="services">
+        <p class="bg-service-text">
+            SLUŽBY
+        </p>
+        <div class="service-box">
+            <svg id="icon-design-layer" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 988.43 986.09">
+                <defs>
+                  <style>
+                    .icon-design-line1 {
+                      fill: #fff;
+                      transition: 0.4s ease;
+                    }
+              
+                    .icon-design-line2, .icon-design-line2 {
+                      stroke: #fff;
+                      stroke-miterlimit: 10;
+                      stroke-width: 24px;
+                      stroke-dasharray: 2400;
+                      transition: 0.4s ease;
+                    }
+              
+                    .icon-design-line2 {
+                      fill: none;
+                    }
+                  </style>
+                </defs>
+                <rect class="icon-design-line2" x="431.8" y="25.47" width="124.1" height="124.1" rx="7.86" ry="7.86"/>
+                <circle class="icon-design-line2" cx="83.71" cy="87.52" r="63.78"/>
+                <circle class="icon-design-line2" cx="903.45" cy="87.52" r="63.78"/>
+                <line class="icon-design-line2" x1="147.5" y1="87.52" x2="431.8" y2="87.52"/>
+                <line class="icon-design-line2" x1="555.89" y1="87.52" x2="839.66" y2="87.52"/>
+                <polygon class="icon-design-line2" points="493.84 238.6 287.61 667.47 435 849.03 552.65 849.03 702.91 667.47 493.84 238.6"/>
+                <circle class="icon-design-line2" cx="493.84" cy="677.85" r="63.78"/>
+                <line class="icon-design-line2" x1="493.84" y1="470.35" x2="493.84" y2="614.07"/>
+                <circle class="icon-design-line1" cx="493.84" cy="395.75" r="16.6"/>
+                <path class="icon-design-line2" d="M351.83,849.03h284.77c15.36,0,27.83,12.47,27.83,27.83v88.09h-340.43v-88.09c0-15.36,12.47-27.83,27.83-27.83Z"/>
+              </svg>
+            <h2 class="js-h2">Grafický dizajn</h2>
+            <ul>
+                <li class="js-li">Web dizajn</li>
+                <li class="js-li">Logo dizajn</li>
+                <li class="js-li">Tlačový dizajn</li>
+            </ul>
+            <span></span>
+            <a href=""><div class="js-div"><p class="js-div-p">Viac</p></div></a>
+            <a href=""><p class="js-p">Portfolio</p></a>
+        </div>
+        <div class="service-box">
+            <svg id="icon-web-layer" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1029.91 608.87">
+                <defs>
+                  <style>
+                    .icon-web-line1 {
+                      fill: #fff;
+                      stroke-width: 0px;
+                      stroke-dasharray: 2400;
+                      transition: 0.4s ease;
+                    }
+                  </style>
+                </defs>
+                <path class="icon-web-line1" d="M9.44,287.93v-43.29L251.96,74.2v54.11L56.9,264.93v2.71l195.06,136.62v54.11L9.44,287.93Z"/>
+                <path class="icon-web-line1" d="M599.17,10.62h48.12l-213.27,588.43h-48.12L599.17,10.62Z"/>
+                <path class="icon-web-line1" d="M781.21,404.26l195.06-136.62v-2.71l-195.06-136.62v-54.11l242.53,170.44v43.29l-242.53,170.44v-54.11Z"/>
+              </svg>
+            <h2 class="js-h2">Tvorba webstránky</h2>
+            <ul>
+                <li class="js-li">Web dizajn</li>
+                <li class="js-li">Responzivita</li>
+                <li class="js-li">SEO optimalizácia</li>
+            </ul>
+            <span></span>
+            <a href=""><div class="js-div"><p class="js-div-p">Viac</p></div></a>
+            <a href=""><p class="js-p">Portfolio</p></a>
+        </div>
+        <div class="service-box">
+            <svg id="icon-video-layer" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1061.72 995.48">
+                <defs>
+                  <style>
+                    .icon-video-line1 {
+                      fill: none;
+                      stroke: #fff;
+                      stroke-miterlimit: 10;
+                      stroke-width: 24px;
+                      transition: 0.4s ease;
+                    }
+                  </style>
+                </defs>
+                <circle class="icon-video-line1" cx="195.93" cy="305.63" r="75.65"/>
+                <circle class="icon-video-line1" cx="194.49" cy="303.25" r="158.88"/>
+                <circle class="icon-video-line1" cx="570.65" cy="248.16" r="216.34"/>
+                <circle class="icon-video-line1" cx="570.65" cy="250.03" r="135.53"/>
+                <circle class="icon-video-line1" cx="569.52" cy="193.22" r="5.48"/>
+                <circle class="icon-video-line1" cx="569.65" cy="304.25" r="5.48"/>
+                <circle class="icon-video-line1" cx="625.26" cy="249.16" r="5.48"/>
+                <circle class="icon-video-line1" cx="514.91" cy="249.16" r="5.48"/>
+                <circle class="icon-video-line1" cx="629.74" cy="611.38" r="47.36"/>
+                <rect class="icon-video-line1" x="582.38" y="753.78" width="94.72" height="102.94" rx="18.93" ry="18.93"/>
+                <rect class="icon-video-line1" x="136.82" y="676.3" width="359.13" height="192.52" rx="22.27" ry="22.27"/>
+                <path class="icon-video-line1" d="M483.67,965.92c85.71-.93,172.71,3.07,258.71-1.93,8-4,15-9,21-16,1-2,3-5,5-7,2-3,5-7,5-11,4-141,5-283,1-424-4-20-20-35-39-40-221-2-441-1-662-1-11,4-21,9-29,19-1,2-3,5-5,7-3,3-3,7-4,11-3,35-2,69-3,104-1,75,1,151,2,226,0,30,1,61-1,91,4,19,17,38,37,42,86,2,171,1,257.35,1.17"/>
+                <circle class="icon-video-line1" cx="404.52" cy="966.57" r="5.48"/>
+                <rect class="icon-video-line1" x="775.99" y="577.55" width="77.95" height="272.36" rx="19.96" ry="19.96"/>
+                <path class="icon-video-line1" d="M974.4,935.76l-102.84-59.92c-10.91-6.36-17.62-18.04-17.62-30.66v-256.16c0-12.44,6.52-23.97,17.17-30.4l105.79-63.75c23.76-14.32,54.02,2.93,53.81,30.67l-2.95,379.84c-.21,27.26-29.8,44.11-53.36,30.39Z"/>
+              </svg>
+            <h2 class="js-h2">Video produkcia</h2>
+            <ul>
+                <li class="js-li">Produktové videá</li>
+                <li class="js-li">Komerčné videá</li>
+                <li class="js-li">Podujatia</li>
+            </ul>
+            <span></span>
+            <a href=""><div class="js-div"><p class="js-div-p">Viac</p></div></a>
+            <a href=""><p class="js-p">Portfolio</p></a>
+        </div>
+        <div class="service-box">
+            <svg id="icon-foto-layer" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 998.7 799.41">
+                <defs>
+                  <style>
+                    .icon-foto-line1 {
+                      fill: #fff;
+                      stroke-width: 0px;
+                      transition: 0.4s ease;
+                    }
+              
+                    .icon-foto-line2 {
+                      fill: none;
+                      stroke: #fff;
+                      stroke-miterlimit: 10;
+                      stroke-width: 24px;
+                      transition: 0.4s ease;
+                    }
+                  </style>
+                </defs>
+                <rect class="icon-foto-line2" x="12" y="139.22" width="974.7" height="648.19" rx="82.53" ry="82.53"/>
+                <rect class="icon-foto-line1" x="144.07" y="280.63" width="143.37" height="29.18" rx="14.59" ry="14.59"/>
+                <circle class="icon-foto-line2" cx="623.29" cy="459.98" r="142.04"/>
+                <circle class="icon-foto-line2" cx="459.33" cy="301.87" r="6.26"/>
+                <path class="icon-foto-line2" d="M613.5,402.46c63.39,0,66.52,38.32,66.52,60.86"/>
+                <path class="icon-foto-line2" d="M406.4,383.8c-28.28,74.47-16.28,164.47,38.72,225.47,1,1,1,3,2,4,8,7,14,15,22,22,1,1,3,1,4,2,50,44,117,63,182,53,38-5,72-20,104-44,2-1,4-1,6-3,19-17,36-34,49-56l3-3c12-22,22-43,28-68,3-13,5-25,6-37,1-11,0-21,0-32-1-17-4-34-9-51-22-77-83-136-161-156-53-13-108-9-156,16-3,1-5,1-7.54,2.49"/>
+                <path class="icon-foto-line2" d="M195.07,51.52h46.57c11.23,0,20.35,9.12,20.35,20.35v66.91h-87.26v-66.91c0-11.23,9.12-20.35,20.35-20.35Z"/>
+                <path class="icon-foto-line2" d="M827.02,138.78h-418.7l63.3-110.07c5.95-10.34,16.96-16.71,28.89-16.71h236.03c12.37,0,23.77,6.71,29.78,17.52l60.7,109.26Z"/>
+              </svg>
+            <h2 class="js-h2">foto produkcia</h2>
+            <ul>
+                <li class="js-li">Produktové fotografie</li>
+                <li class="js-li">Komerčné fotografie</li>
+                <li class="js-li">Podujatia</li>
+            </ul>
+            <span></span>
+            <a href=""><div class="js-div"><p class="js-div-p">Viac</p></div></a>
+            <a href=""><p class="js-p">Portfolio</p></a>
+        </div>
+        <div class="service-box">
+            <svg id="icon-soc-layer" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760.7 934.43">
+                <defs>
+                  <style>
+                    .icon-soc-line1 {
+                      fill: #fff;
+                      stroke-width: 0px;
+                      transition: 0.4s ease;
+                    }
+              
+                    .icon-soc-line2 {
+                      fill: none;
+                      stroke: #fff;
+                      stroke-miterlimit: 10;
+                      stroke-width: 24px;
+                      transition: 0.4s ease;
+                    }
+                  </style>
+                </defs>
+                <rect class="icon-soc-line1" x="97.5" y="775.54" width="314.61" height="20.36" rx="10.18" ry="10.18"/>
+                <path class="icon-soc-line2" d="M492.5,265.49c-1.54-69.18,4.46-138.18-1.54-207.18-1-11-9-19-19-24-71-5-143,0-214-3-71,3-141-2-212,3-9,5-17,12-20,22-2,274-3,549,1,823,0,14,12,25,26,25,139,2,278,2,417,0,11-4,17-13,22-23,3-52,0-105,1.42-157.21"/>
+                <path class="icon-soc-line2" d="M137.19,34.23h242.61v48.97c0,21.03-17.07,38.1-38.1,38.1h-166.41c-21.03,0-38.1-17.07-38.1-38.1v-48.97h0Z"/>
+                <path class="icon-soc-line2" d="M714.91,617.48l-365.47-63.17c-8.6-1.49-14.88-8.94-14.88-17.67v-222.88c0-7.65,5.51-14.19,13.05-15.5l367.3-63.48v382.7Z"/>
+                <path class="icon-soc-line2" d="M240.65,347.48h93.91v152.61h-93.91c-16.2,0-29.35-13.15-29.35-29.35v-93.91c0-16.2,13.15-29.35,29.35-29.35Z"/>
+                <path class="icon-soc-line2" d="M584.79,594.99l-49.61,90.16c-2.27,4.12-6.03,7.21-10.51,8.63h0c-22.01,6.96-45.83,5.35-66.7-4.51l-5.89-2.78c-11.63-5.5-19.04-17.2-19.04-30.06v-84.85"/>
+                <rect class="icon-soc-line1" x="703.1" y="189.01" width="37.38" height="476.99" rx="18.69" ry="18.69"/>
+              </svg>
+            <h2 class="js-h2">Správa soc. sietí</h2>
+            <ul>
+                <li class="js-li">Produktové fotografie</li>
+                <li class="js-li">Optimalizácia profilu</li>
+                <li class="js-li">Podujatia</li>
+            </ul>
+            <span></span>
+            <a href=""><div class="js-div"><p class="js-div-p">Viac</p></div></a>
+            <a href=""><p class="js-p">Portfolio</p></a>
+        </div>
+        <div class="service-box">
+            <svg id="icon-ad-layer" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 943.83 943.83">
+                <defs>
+                  <style>
+                    .icon-ad-line1 {
+                      fill: none;
+                      stroke: #fff;
+                      stroke-miterlimit: 10;
+                      stroke-width: 24px;
+                      transition: 0.4s ease;
+                    }
+                  </style>
+                </defs>
+                <circle class="icon-ad-line1" cx="754.68" cy="757.77" r="162.05"/>
+                <circle class="icon-ad-line1" cx="190.1" cy="181.12" r="151.87"/>
+                <circle class="icon-ad-line1" cx="754.68" cy="186.12" r="151.87"/>
+                <circle class="icon-ad-line1" cx="813.84" cy="130.89" r="27.63"/>
+                <circle class="icon-ad-line1" cx="813.84" cy="245.87" r="27.63"/>
+                <circle class="icon-ad-line1" cx="697.68" cy="186.12" r="27.63"/>
+                <line class="icon-ad-line1" x1="787.23" y1="138.33" x2="720.35" y2="170.33"/>
+                <line class="icon-ad-line1" x1="718.79" y1="203.93" x2="786.21" y2="242.61"/>
+                <polygon class="icon-ad-line1" points="727.3 811.17 727.3 707.09 807.13 759.13 727.3 811.17"/>
+                <path class="icon-ad-line1" d="M215.39,237.38h-111.2c-.08,0-.14-.06-.14-.14v-111.2c0-.08.06-.14.14-.14h111.2c.08,0,.14.06.14.14v111.2c0,.08-.06.14-.14.14Z"/>
+                <polygon class="icon-ad-line1" points="226.52 161.83 280.78 134.17 280.78 232.78 226.52 204.87 226.52 161.83"/>
+                <path class="icon-ad-line1" d="M414.96,308.26c93.91-67.3,278.09,68.35,214.96,204.52"/>
+                <path class="icon-ad-line1" d="M431.03,359.07c64.62-46.31,191.34,47.03,147.91,140.73"/>
+                <path class="icon-ad-line1" d="M323.76,338.82l-175.63,347.67c-1.94,3.85-1.33,8.5,1.54,11.71l65.02,72.7c3.16,3.53,8.28,4.54,12.55,2.47l356.01-172.71c.67-.33.82-1.22.29-1.74l-259.52-260.15c-.08-.08-.22-.06-.27.04Z"/>
+                <line class="icon-ad-line1" x1="287.33" y1="744.23" x2="179.37" y2="624.66"/>
+                <path class="icon-ad-line1" d="M268.7,760.17l96.1,101.84c.35.37.95.38,1.31.02l17.27-17.42c4.73-4.77,7.28-11.29,7.05-18l-.71-20.52c-.32-9.3-3.72-18.23-9.65-25.4l-46.41-55.99-64.96,35.48Z"/>
+                <path class="icon-ad-line1" d="M412.96,417.39c69.91-43.3,136.17,28.17,90.78,89.4"/>
+              </svg>
+            <h2 class="js-h2">Platená propagácia</h2>
+            <ul>
+                <li class="js-li">Produktové fotografie</li>
+                <li class="js-li">Optimalizácia profilu</li>
+                <li class="js-li">Podujatia</li>
+            </ul>
+            <span></span>
+            <a href=""><div class="js-div"><p class="js-div-p">Viac</p></div></a>
+            <a href=""><p class="js-p">Portfolio</p></a>
+        </div>
+    </div>
+    
+    <div id="rewievs">
+        <div>
+            <img class="hidden " src="images/stars.png" alt="">
+            <p class="hidden delay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dicta, fuga, temporibus nostrum laborum obcaecati ducimus porro numquam fugit culpa maxime amet! Ratione ducimus officia dolorum sit sint itaque dignissimos.lore </p>
+            <h4 class="hidden-left delay ">Johny Perfecto</h4>
+        </div>
+        <div >
+            <img class="hidden " src="images/stars.png" alt="">
+            <p class="hidden delay1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dicta, fuga, temporibus nostrum laborum obcaecati ducimus porro numquam fugit culpa maxime amet! Ratione ducimus officia dolorum sit sint itaque dignissimos.lore </p>
+            <h4 class="hidden-left delay1">Johny Perfecto</h4>
+        </div>
+        <div >
+            <img class="hidden " src="images/stars.png" alt="">
+            <p class="hidden delay2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dicta, fuga, temporibus nostrum laborum obcaecati ducimus porro numquam fugit culpa maxime amet! Ratione ducimus officia dolorum sit sint itaque dignissimos.lore </p>
+            <h4 class="hidden-left delay2">Johny Perfecto</h4>
+        </div>
+
+    </div>
+    <h2 class="portfolio-heading">Predošlé práce</h2>
+    <div id="portfolio">
+        <div class="portfolio-box">
+            <div class="portfolio-box-top">
+                <ul>
+                    <li onclick="design()" class="portfolio-list">Dizajn</li>
+                    <li onclick="web()" class="portfolio-list">Web</li>
+                    <li onclick="video()" class="portfolio-list">Video</li>
+                    <li onclick="foto()" class="portfolio-list">Foto</li>
+                </ul>
+
+            </div>
+            <div class="portfolio-design">
+                <div class=" design">  
+                    <div class="designCover designCover1"></div>
+                    <a class="designLink" href="">VIAC</a>
+                  
+                </div>
+                <div class=" design">
+                    <div class="designCover designCover2"></div>
+                    <a class="designLink" href="">VIAC</a>
+                </div>
+                <div class=" design">
+                    <div class="designCover designCover3"></div>
+                    <a class="designLink" href="">VIAC</a>
+                </div>
+                <div class=" design">
+                    <div class="designCover designCover4"></div>
+                    <a class="designLink" href="">VIAC</a>
+                </div>
+
+            </div>
+            <div class="portfolio-web">
+                <div class=" web">  
+                    <div class="webCover webCover1"></div>
+                    <a class="webLink" href="">VIAC</a>
+                  
+                </div>
+                <div class=" web">
+                    <div class="webCover webCover2"></div>
+                    <a class="webLink" href="">VIAC</a>
+                </div>
+                <div class=" web">
+                    <div class="webCover webCover3"></div>
+                    <a class="webLink" href="">VIAC</a>
+                </div>
+                <div class=" web">
+                    <div class="webCover webCover4"></div>
+                    <a class="webLink" href="">VIAC</a>
+                </div>
+            </div>
+            <div class="portfolio-video">
+
+            </div>
+            <div class="portfolio-foto">
+                <div class=" foto">  
+                    <div class="fotoCover fotoCover1"></div>
+                    <a class="fotoLink" href="">VIAC</a>
+                  
+                </div>
+                <div class=" foto">
+                    <div class="fotoCover fotoCover2"></div>
+                    <a class="fotoLink" href="">VIAC</a>
+                </div>
+                <div class=" foto">
+                    <div class="fotoCover fotoCover3"></div>
+                    <a class="fotoLink" href="">VIAC</a>
+                </div>
+                <div class=" foto">
+                    <div class="fotoCover fotoCover4"></div>
+                    <a class="fotoLink" href="">VIAC</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   
+   
+   
+    
+    <div id="footer">
+        <div class="top-footer">
+            <img src="images/c.png" alt="">
+        </div>
+        <div class="mid-footer">
+            <div class="mid-left">
+                <h6>Jakub Gerer - Bentrace <br>
+                    Jakub Benický
+                </h6>
+                <p>
+                    IČO: 09238410 <br><br>
+                    DIČ: 03945322 <br><br>
+                    Ráztoka 113, 976 97 <br><br><br><br>
+                    0908 937 658 <br><br>
+                    info@bentrace.com
+                </p>
+
+            </div>
+            <div class="mid-mid">
+                <h6>Podstránky</h6>
+
+                <a href="">Domov</a>
+                <a href="">O nás</a>
+                <a href="">Služby</a>
+                <a href="">Portfólio</a>
+                <a href="">kontakt</a>
+            </div>
+            <div class="mid-right">
+                <h6>Info</h6>
+
+                <a href="">GDPR</a>
+                <a href="">Obchodné podmienky</a>
+            
+            </div>
+            </div>
+
+        </div>
+        <div class="bottom-footer">
+            <p>compyrights@ vyhradené pre ben-trace.com / Vytvoril a nadizajnoval Bentrace</p>
+        </div>
+
+    </div>
+
+
+   
+    <script src="script/logo.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="script/portfolioHome.js"></script>
+    <script src="script/homeServices.js"></script>
+    <script>
+        const loaderContainer = document.querySelector('#loadingScreen')
+
+        window.addEventListener('load', () => {
+            loaderContainer.classList.add('notVisible')
+        })
+
+    </script>
+</body>
+</html>
