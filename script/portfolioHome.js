@@ -105,3 +105,20 @@ for (let i = 0; i < 4; i++) {
     
 }
 
+let fotoShowcase = document.getElementsByClassName('foto')
+let fotoCover = document.getElementsByClassName('fotoCover')
+let fotoLink = document.getElementsByClassName('fotoLink')
+
+for (let i = 0; i < 4; i++) {
+    fotoShowcase[i].addEventListener('mouseover', ()=>{
+        fotoCover[i].style.opacity = 0.5
+        fotoLink[i].style.opacity = 1
+    })
+
+    fotoShowcase[i].addEventListener('mouseout', ()=>{
+        fotoCover[i].style.opacity = 1
+        fotoLink[i].style.opacity = 0
+    })
+    
+}
+

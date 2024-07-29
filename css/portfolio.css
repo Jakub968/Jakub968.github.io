@@ -1,0 +1,922 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,80");
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+html,
+body {
+	height: 100%;
+	background-color: rgb(17, 17, 19);
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*###########################################################################################  */
+/*#########################################mobile############################################  */
+/*###########################################################################################  */
+
+@media screen and (max-width: 480px) {
+
+    #header {
+		width: 100%;
+		min-height: 10vb;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 5%;
+		position: fixed;
+		z-index: 2;
+	}
+
+	#header ul {
+		display: none;
+	}
+
+
+
+	#Layer_1 {
+		width: 60px;
+		overflow: visible;
+	}
+
+	.path1 {
+		fill: transparent;
+		stroke-width: 20;
+		stroke: rgb(36, 103, 179);
+		stroke-dasharray: 2400;
+		stroke-dashoffset: 2400;
+		transition: 01s ease;
+	}
+
+    #main{
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    .main-header{
+        height: 10vh;
+        width: 100%;
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-header p{
+        color: rgba(255, 255, 255, 0.603);
+        font-family: "montserrat";
+        margin: 0 15px;
+        font-size: 15px;
+    }
+
+    .main-header p:first-child{
+        color: white;
+    }
+    
+    .main-box{
+        width: 100%;
+        padding: 0 5%;
+        padding-top: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .portfolio-box{
+        width: 100%;
+        min-height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .portfolio-img, .portfolio-img1, .portfolio-img2, .portfolio-img3, .portfolio-img4, .portfolio-img5, .portfolio-img6, .portfolio-img7, .portfolio-img8{
+        width: 50%;
+        min-height: 20vh;
+        background-size: cover;
+        margin-bottom: 20px;
+    }
+    
+    .portfolio-img{  
+        background-image: url(../images/Untitled-3.jpg);
+        background-position: center;      
+    }
+    
+    .portfolio-img1{
+        background-image: url(../images/Untitled-5.jpg);
+        background-position: center;
+    }
+    
+    .portfolio-img2{
+        background-image: url(../images/vavInterier.jpg);
+        background-position: 80%;
+    }
+    
+    .portfolio-img3{
+        background-image: url(../images/mockup1.png);
+        background-position: 80%;
+    }
+    
+    .portfolio-img4{
+        width: 40%;
+        height: 30%;
+        background-image: url(../images/carpZoom.jpg);
+        background-position: 80%;
+    }
+    
+    .portfolio-img5{
+        background-image: url(../images/legia.jpg);
+        background-position: 80%;
+    }
+    
+    .portfolio-img6{
+        background-image: url(../images/zrnco.jpg);
+        background-position: 80%;
+    }
+    
+    .portfolio-img7{
+        background-image: url(../images/farma.jpg);
+        background-position: 80%;
+    }
+    
+    .portfolio-img8{
+        background-image: url(../images/Contact\ Pfage.jpg);
+        background-position: 80%;
+    }
+    
+    .portfolio-content{
+        width: 100%;
+        min-height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .portfolio-content h2{
+        color: white;
+        font-family: "montserrat";
+        font-weight: 400;
+        margin-left: 10px;
+        margin-bottom: 2%;
+    
+    }
+    
+    .portfolio-content div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .portfolio-content div p{
+        color: white;
+        font-family: "montserrat";
+        margin: 10px 10px;
+        background-color: rgba(255, 255, 255, 0.164);
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+    
+    .portfolio-content a div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        margin-left: 0px;
+        margin-top: 10%;
+        padding: 0 80px;
+    }
+    
+    .portfolio-content a div p{
+        color: rgb(0, 0, 0);
+        font-family: "montserrat";
+        margin: 10px 0px;
+        padding: 0;
+    }
+
+    #footer {
+		width: 100%;
+		height: 80%;
+		padding: 0 5%;
+		margin-top: 10vh;
+	}
+
+	.top-footer {
+		width: 100%;
+		height: 10%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.top-footer img {
+		height: 30%;
+	}
+
+	.mid-footer {
+		width: 100%;
+		height: 85%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		position: relative;
+	}
+
+	.mid-left {
+		width: 50%;
+		height: 30%;
+	}
+
+	.mid-left p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 12px;
+		line-height: 15px;
+		font-weight: 400;
+	}
+
+	.mid-mid {
+		width: 50%;
+		height: 30%;
+	}
+
+	.mid-mid a {
+		color: white;
+		font-family: "montserrat";
+		font-size: 12px;
+		margin: 10px 0;
+		font-weight: 400;
+		display: block;
+	}
+
+	.mid-right {
+		width: 100%;
+		height: 30%;
+		position: absolute;
+		bottom: 0;
+	}
+
+	.mid-right a {
+		color: white;
+		font-family: "montserrat";
+		font-size: 12px;
+		margin: 10px 0;
+		font-weight: 400;
+		display: block;
+	}
+
+	.mid-footer h6 {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		font-weight: 400;
+		margin: 0 0 20px 0;
+	}
+
+	.bottom-footer {
+		width: 100%;
+		height: 5%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-left: 5%;
+	}
+
+	.bottom-footer p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 12px;
+		font-weight: 400;
+		width: 90%;
+	}
+
+}
+
+/*###########################################################################################  */
+/*#########################################tablet############################################  */
+/*###########################################################################################  */
+
+@media screen and (max-width: 1024px) and (min-width: 481px) {
+    #header {
+		width: 100%;
+		min-height: 10vb;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 5%;
+		position: fixed;
+		z-index: 2;
+	}
+
+	#header ul {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#header ul li {
+		color: white;
+		font-family: "montserrat";
+		margin: 0 30px;
+		font-size: 15px;
+	}
+
+	#Layer_1 {
+		width: 60px;
+		overflow: visible;
+	}
+
+	.path1 {
+		fill: transparent;
+		stroke-width: 20;
+		stroke: rgb(36, 103, 179);
+		stroke-dasharray: 2400;
+		stroke-dashoffset: 2400;
+		transition: 01s ease;
+	}
+
+    #main{
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    .main-header{
+        height: 10vh;
+        width: 100%;
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-header p{
+        color: rgba(255, 255, 255, 0.603);
+        font-family: "montserrat";
+        margin: 0 40px;
+        font-size: 20px;
+        padding-bottom: 5px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .main-header p:first-child{
+        color: rgb(255, 255, 255);
+    }
+    
+    .main-box{
+        width: 100%;
+        padding: 0 5%;
+        padding-top: 3%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        transition: 0.4s ease;
+    }
+    
+    .portfolio-box{
+        width: 100%;
+        min-height: 300px;
+        display: flex;
+        margin-bottom: 100px;
+        transition: 0.4s ease;
+    }
+    
+    .portfolio-img{
+        width: 50%;
+        height: 100%;
+        background-image: url(../images/Untitled-3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .portfolio-img1{
+        width: 50%;
+        height: 100%;
+        background-image: url(../images/Untitled-5.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .portfolio-img2{
+        width: 50%;
+        height: 100%;
+        background-image: url(../images/vavInterier.jpg);
+        background-position: 80%;
+        background-size: cover;
+    }
+    
+    .portfolio-img3{
+        width: 50%;
+        height: 100%;
+        background-image: url(../images/mockup1.png);
+        background-position: 80%;
+        background-size: cover;
+    }
+    
+    .portfolio-img4{
+        width: 50%;
+        height: 100%;
+        background-image: url(../images/carpZoom.jpg);
+        background-position: 80%;
+        background-size: cover;
+    }
+    
+    .portfolio-img5{
+        width: 50%;
+        height: 100%;
+        background-image: url(../images/legia.jpg);
+        background-position: 80%;
+        background-size: cover;
+    }
+    
+    .portfolio-img6{
+        width: 50%;
+        height: 100%;
+        background-image: url(../images/zrnco.jpg);
+        background-position: 80%;
+        background-size: cover;
+    }
+    
+    .portfolio-img7{
+        width: 50%;
+        height: 100%;
+        background-image: url(../images/farma.jpg);
+        background-position: 80%;
+        background-size: cover;
+    }
+    
+    .portfolio-img8{
+        width: 50%;
+        height: 100%;
+        background-image: url(../images/Contact\ Pfage.jpg);
+        background-position: 80%;
+        background-size: cover;
+    }
+    
+    .portfolio-content{
+        width: 60%;
+        height: 100%;
+        padding-left: 20px;
+    }
+    
+    .portfolio-content h2{
+        color: white;
+        font-family: "montserrat";
+        font-weight: 400;
+        margin-left: 10px;
+        margin-bottom: 2%;
+    
+    }
+    
+    .portfolio-content div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .portfolio-content div p{
+        color: white;
+        font-family: "montserrat";
+        margin: 10px 10px;
+        background-color: rgba(255, 255, 255, 0.164);
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+    
+    .portfolio-content a div{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 10%;
+        width: 40%;
+    }
+    
+    .portfolio-content a div p{
+        color: rgb(0, 0, 0);
+        font-family: "montserrat";
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    #footer {
+		width: 100%;
+		height: 30%;
+		padding: 0 5%;
+	}
+
+	.top-footer {
+		width: 100%;
+		height: 20%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.top-footer img {
+		height: 30%;
+	}
+
+	.mid-footer {
+		width: 100%;
+		height: 70%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.mid-left {
+		width: 30%;
+		height: 100%;
+	}
+
+	.mid-left p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		line-height: 15px;
+		font-weight: 400;
+	}
+
+	.mid-mid {
+		width: 30%;
+		height: 100%;
+	}
+
+	.mid-mid a {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		margin: 10px 0;
+		font-weight: 400;
+		display: block;
+	}
+
+	.mid-right {
+		width: 30%;
+		height: 100%;
+	}
+
+	.mid-right a {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		margin: 10px 0;
+		font-weight: 400;
+		display: block;
+	}
+
+	.mid-footer h6 {
+		color: white;
+		font-family: "montserrat";
+		font-size: 20px;
+		font-weight: 400;
+		margin: 0 0 20px 0;
+	}
+
+	.bottom-footer {
+		width: 100%;
+		height: 10%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.bottom-footer p {
+		color: white;
+		font-family: "montserrat";
+		font-size: 15px;
+		font-weight: 400;
+	}
+}
+
+/*###########################################################################################  */
+/*#########################################pc##########################################  */
+/*###########################################################################################  */
+
+@media screen and (min-width: 1401px) {
+    #header {
+        width: 100%;
+        min-height: 10vb;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5%;
+        position: fixed;
+        z-index: 2;
+    }
+    
+    #header ul {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #header ul li {
+        color: white;
+        font-family: "montserrat";
+        margin: 0 30px;
+        font-size: 15px;
+    }
+    
+    #Layer_1 {
+        width: 60px;
+        overflow: visible;
+    }
+    
+    .path1 {
+        fill: transparent;
+        stroke-width: 20;
+        stroke: rgb(36, 103, 179);
+        stroke-dasharray: 2400;
+        stroke-dashoffset: 2400;
+        transition: 01s ease;
+    }
+    
+    #main{
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    .main-header{
+        height: 10vh;
+        width: 100%;
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-header p{
+        color: rgba(255, 255, 255, 0.603);
+        font-family: "montserrat";
+        margin: 0 40px;
+        font-size: 20px;
+        padding-bottom: 5px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .main-header p:first-child{
+        color: rgb(255, 255, 255);
+    }
+    
+    .main-box{
+        width: 100%;
+        padding: 0 5%;
+        padding-top: 3%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        transition: 0.4s ease;
+    }
+    
+    .portfolio-box{
+        width: 45%;
+        min-height: 30vh;
+        display: flex;
+        margin-bottom: 100px;
+        transition: 0.4s ease;
+    }
+    
+    .portfolio-img{
+        width: 40%;
+        height: 100%;
+        background-image: url(../images/Untitled-3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .portfolio-img1{
+        width: 40%;
+        height: 100%;
+        background-image: url(../images/Untitled-5.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .portfolio-img2{
+        width: 40%;
+        height: 100%;
+        background-image: url(../images/vavInterier.jpg);
+        background-position: 80%;
+        background-size: cover;
+    }
+    
+    .portfolio-img3{
+        width: 40%;
+        height: 100%;
+        background-image: url(../images/mockup1.png);
+        background-position: 80%;
+        background-size: cover;
+    }
+    
+    .portfolio-img4{
+        width: 40%;
+        height: 100%;
+        background-image: url(../images/carpZoom.jpg);
+        background-position: 80%;
+        background-size: cover;
+    }
+    
+    .portfolio-img5{
+        width: 40%;
+        height: 100%;
+        background-image: url(../images/legia.jpg);
+        background-position: 80%;
+        background-size: cover;
+    }
+    
+    .portfolio-img6{
+        width: 40%;
+        height: 100%;
+        background-image: url(../images/zrnco.jpg);
+        background-position: 80%;
+        background-size: cover;
+    }
+    
+    .portfolio-img7{
+        width: 40%;
+        height: 100%;
+        background-image: url(../images/farma.jpg);
+        background-position: 80%;
+        background-size: cover;
+    }
+    
+    .portfolio-img8{
+        width: 40%;
+        height: 100%;
+        background-image: url(../images/Contact\ Pfage.jpg);
+        background-position: 80%;
+        background-size: cover;
+    }
+    
+    .portfolio-content{
+        width: 60%;
+        height: 100%;
+        padding-left: 20px;
+    }
+    
+    .portfolio-content h2{
+        color: white;
+        font-family: "montserrat";
+        font-weight: 400;
+        margin-left: 10px;
+        margin-bottom: 2%;
+    
+    }
+    
+    .portfolio-content div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .portfolio-content div p{
+        color: white;
+        font-family: "montserrat";
+        margin: 10px 10px;
+        background-color: rgba(255, 255, 255, 0.164);
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+    
+    .portfolio-content a div{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 10%;
+        width: 40%;
+    }
+    
+    .portfolio-content a div p{
+        color: rgb(0, 0, 0);
+        font-family: "montserrat";
+        margin: 10px 0;
+        padding: 0;
+    }
+    
+    
+    #footer {
+        width: 100%;
+        height: 40%;
+        padding: 0 5%;
+        margin-top: 10%;
+    }
+    
+    .top-footer {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .top-footer img {
+        height: 30%;
+    }
+    
+    .mid-footer {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .mid-left {
+        width: 30%;
+        height: 100%;
+    }
+    
+    .mid-left p {
+        color: white;
+        font-family: "montserrat";
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 400;
+    }
+    
+    .mid-mid {
+        width: 30%;
+        height: 100%;
+    }
+    
+    .mid-mid a {
+        color: white;
+        font-family: "montserrat";
+        font-size: 15px;
+        margin: 10px 0;
+        font-weight: 400;
+        display: block;
+    }
+    
+    .mid-right {
+        width: 30%;
+        height: 100%;
+    }
+    
+    .mid-right a {
+        color: white;
+        font-family: "montserrat";
+        font-size: 15px;
+        margin: 10px 0;
+        font-weight: 400;
+        display: block;
+    }
+    
+    .mid-footer h6 {
+        color: white;
+        font-family: "montserrat";
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0 0 20px 0;
+    }
+    
+    .bottom-footer {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bottom-footer p {
+        color: white;
+        font-family: "montserrat";
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+

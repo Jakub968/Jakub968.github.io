@@ -5,6 +5,8 @@
 	padding: 0;
 }
 
+
+
 html,
 body {
 	height: 100%;
@@ -135,7 +137,7 @@ a {
 		font-family: "montserrat";	
 		text-align: center;
 		color: white;
-		font-size: 70px;
+		font-size: 60px;
 		font-weight: 400;
 		margin-bottom: 20px;
 	}
@@ -151,7 +153,6 @@ a {
 
 	#about{
 		width: 100%;
-		min-height: 120vh;
 		padding: 0 5%;
 		display: flex;
 		flex-direction: column;
@@ -159,7 +160,6 @@ a {
 
 	.about-left{
 		width: 100%;
-		min-height: 40%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -167,7 +167,7 @@ a {
 
 	.about-left-box{
 		width: 100%;
-		height: 60vh;
+		height: 40vh;
 		background-image: url(../images/DSC07463.jpg);
 		background-size: cover;
 		background-position: center;
@@ -175,15 +175,14 @@ a {
 
 	.about-right{
 		width: 100%;
-		min-height: 60%;
 		display: flex;
+		min-height: 60%;
 		flex-direction: column;
 		justify-content: center;
 	}
 
 	.about-right-box{
 		width: 100%;
-		height: 60vh;
 		padding-left: 5%;
 	}
 
@@ -236,6 +235,7 @@ a {
 		align-items: center;
 		position: relative;
 		margin-top: 20%;
+		margin-bottom: 30%;
 		padding: 0 2%;
 	}
 
@@ -277,6 +277,7 @@ a {
 		margin-top:  30px;
 		margin-bottom: 10px;
 		transition: 0.4s ease;
+		text-align: center;
 
 	}
 
@@ -431,7 +432,7 @@ a {
 
 	.design:nth-child(4){
 		width: 100%;
-		height: 20vh;
+		height: 30vh;
 	}
 
 	.designCover{
@@ -452,6 +453,7 @@ a {
 
 	.designCover3{
 		background-image: url(../images/mockup1.png);
+		background-position: 80%;
 	}
 
 	.designCover4{
@@ -482,23 +484,24 @@ a {
 	}
 
 	.web:nth-child(1){
-		width: 20%;
-		height: 32vh;
+		width: 45%;
+		height: 20vh;
 	}
 
 	.web:nth-child(2){
-		width: 20%;
-		height: 32vh;
+		width: 45%;
+		height: 20vh;
 	}
 
 	.web:nth-child(3){
-		width: 50%;
-		height: 70vh;
+		width: 100%;
+		height: 50vh;
+		margin: 30px 0;
 	}
 
 	.web:nth-child(4){
-		width: 20%;
-		height: 70vh;
+		width: 100%;
+		height: 30vh;
 	}
 
 	.webCover{
@@ -519,10 +522,12 @@ a {
 
 	.webCover3{
 		background-image: url(../images/web\ mockup.jpg);
+		background-position: 20%;
 	}
 
 	.webCover4{
 		background-image: url(../images/pva\ web.jpg);
+		background-position: 0% 53%;
 	}
 
 	.foto{
@@ -547,26 +552,6 @@ a {
 		font-size: 20px;
 	}
 
-	.foto:nth-child(1){
-		width: 20%;
-		height: 32vh;
-	}
-
-	.foto:nth-child(2){
-		width: 20%;
-		height: 32vh;
-	}
-
-	.foto:nth-child(3){
-		width: 50%;
-		height: 70vh;
-	}
-
-	.foto:nth-child(4){
-		width: 20%;
-		height: 70vh;
-	}
-
 	.fotoCover{
 		background-position: center;
 		background-size: cover;
@@ -575,8 +560,31 @@ a {
 		transition: 0.2s ease;
 	}
 
+	.foto:nth-child(1){
+		width: 45%;
+		height: 20vh;
+	}
+
+	.foto:nth-child(2){
+		width: 45%;
+		height: 20vh;
+	}
+
+	.foto:nth-child(3){
+		width: 100%;
+		height: 50vh;
+		margin: 30px 0;
+	}
+
+	.foto:nth-child(4){
+		width: 100%;
+		height: 30vh;
+	}
+
+	
+
 	.fotoCover1{
-		background-image: url(../images/Contact\ Pfage.jpg);
+		background-image: url(../images/fotoPortfolio/CZ\ 0632.jpg);
 	}
 
 	.fotoCover2{
@@ -584,7 +592,8 @@ a {
 	}
 
 	.fotoCover3{
-		background-image: url(../images/web\ mockup.jpg);
+		background-image: url(../images/brazilia.jpg);
+		background-position: 30%;
 	}
 
 	.fotoCover4{
@@ -599,7 +608,13 @@ a {
 		background-color: rgb(255, 251, 0);
 	}
 
-	
+	.rewievs-h2{
+		color: rgb(255, 255, 255);
+		font-family: "montserrat";
+		font-weight: 500;
+		font-size: 60px;
+		text-align: center;
+	}
 
 	#rewievs {
 		width: 100%;
@@ -609,12 +624,13 @@ a {
 		justify-content: space-around;
 		align-items: center;
 		padding: 5% 5%;
-		margin-top: 20%;
+		
 	}
 
 	#rewievs div {
 		width: 100%;
 		height: 30%;
+		margin: 30px 0;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -631,11 +647,11 @@ a {
 		font-family: "montserrat";
 		font-size: 25px;
 		font-weight: 400;
-		margin-top: 50px;
+		margin-top: 20px;
 	}
 
 	#rewievs div p {
-		color: white;
+		color: rgba(255, 255, 255, 0.733);
 		font-family: "montserrat";
 		font-size: 15px;
 		font-weight: 500;
@@ -802,7 +818,6 @@ a {
 		padding: 0 5%;
 		position: fixed;
 		z-index: 2;
-		background-color: rgb(17, 17, 19);
 	}
 
 	#header ul {
@@ -834,123 +849,517 @@ a {
 	#main {
 		width: 100%;
 		min-height: 100%;
+		background-image: url(../images/bg.jpg);
+		background-position: center;
+		background-size: cover;
+	}
+
+	.main-box{
+		margin: 0 auto;
+		max-width: 70%;
+		min-height: 100vh;
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.main-box h1{
+		font-family: "montserrat";
+		text-align: center;
+		color: white;
+		font-size: 90px;
+		font-weight: 400;
+		margin-bottom: 20px;
+	}
+
+	.main-box p{
+		font-family: "montserrat";
+		color: rgb(255, 255, 255);
+		font-size: 18px;
+		font-weight: 400;
+		max-width: 50%;
+		text-align: center;
+	}
+
+	#about{
+		width: 100%;
+		padding: 0 5%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.about-left{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.about-left-box{
+		width: 100%;
+		height: 40vh;
+		background-image: url(../images/DSC07463.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.about-right{
+		width: 100%;
+		display: flex;
+		min-height: 60%;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.about-right-box{
+		width: 100%;
+		padding-left: 5%;
+	}
+
+	.about-right-box h5{
+		font-family: "montserrat";
+		color: rgba(255, 255, 255, 0.842);
+		font-size: 20px;
+		font-weight: 400;
+		margin-top: 10px;
+	}
+
+	.about-right-box h2{
+		font-family: "montserrat";
+		color: white;
+		font-size: 40px;
+		font-weight: 500;
+		margin: 20px 0 10px 0;
+	}
+
+	.about-right-box p{
+		font-family: "montserrat";
+		color: rgba(255, 255, 255, 0.801);
+		line-height: 25px;
+		margin: 2vh 0 5vh 0;
+		max-width: 100%;
+	}
+
+	.about-right-box div{
+		width: 200px;
+		min-height: 50px;
+		background-color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.about-right-box div p{
+		color: black;
+		font-size: 18px;
+		margin: 0;
+	}
+
+	#services{
+		max-width: 100%;
+		min-height: 120vh;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		margin-top: 10vh;
+		margin-bottom: 10vh;
+	}
+
+	.bg-service-text{
+		position: absolute;
+		color: rgba(255, 255, 255, 0.075);
+		z-index: 0;
+		font-family: "montserrat";
+		font-size: 300px;
+	}
+
+	.service-box{
+		z-index: 1;
+		width: 40%;
+		height: 50vh;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0 5%;
+		/* background-color: rgb(24, 24, 24); */
+		transition: 0.4s ease;
+	}
+
+	.service-box img{
+		width: 20%;
+	}
+
+	#icon-design-layer, #icon-web-layer, #icon-video-layer, #icon-foto-layer, #icon-soc-layer, #icon-ad-layer{
+		width: 20%;
+		transition: 0.4s ease;
+	}
+
+	.service-box h2{
+		font-family: "montserrat";
+		text-align: center;
+		color: rgb(255, 255, 255);
+		font-size: 30px;
+		font-weight: 500;
+		margin-top:  30px;
+		margin-bottom: 10px;
+		transition: 0.4s ease;
+
+	}
+
+	.service-box div{
+		min-width: 150px;
+		height: 40px;
+		background-color: rgb(255, 255, 255);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0 0 20px 0;
+		transition: 0.4s ease;
+		
+	}
+
+	.service-box ul li{
+		font-family: "montserrat";
+		color: rgb(221, 221, 221);
+		font-size: 15px;
+		list-style:disc;
+		transition: 0.4s ease;
+	}
+
+	.service-box span{
+		width: 80%;
+		height: 1px;
+		background-color: rgb(71, 71, 71);
+		margin: 50px 0 20px;
+	}
+
+	.service-box div p{
+		font-family: "montserrat";
+		color: rgb(0, 0, 0);
+		font-size: 15px;
+		transition: 0.4s ease;
+	}
+
+	.service-box p{
+		color: white;
+		font-family: "montserrat";
+		transition: 0.4s ease;
+	}
+
+	.portfolio-heading{
+		text-align: center;
+		font-family: "montserrat";
+		color: rgb(255, 255, 255);
+		font-size: 70px;
+		font-weight: 400;
+		margin-top: 100px;
+
+	}
+
+	#portfolio{
+		width: 100%;
+		min-height: 140vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.portfolio-box{
+		width: 90%;
+		min-height: 140vh;
+		position: relative;
+	}
+
+	.portfolio-box-top{
+		width: 100%;
+		min-height: 10vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.portfolio-box-top ul{
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.portfolio-box-top ul li{
+		color: rgba(255, 255, 255, 0.774);
+		font-family: "montserrat";
+		transition: 0.5s ease;
+		cursor: pointer;
+		font-size: 20px;
+		margin: 0 15px;
+	}
+
+	.portfolio-box-top ul li:first-child{
+		border-bottom: 1px solid white;
+	}
+
+	.portfolio-design, .portfolio-web, .portfolio-video, .portfolio-foto{
+		width: 100%;
+		height: 90vh;
+		position: absolute;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+	.portfolio-web, .portfolio-video, .portfolio-foto{
+		display: none;
+	}
+
+	.design{
+		display: flex;
 		justify-content: center;
 		align-items: center;
 		position: relative;
 	}
 
-	#main img {
-		max-width: 20%;
-	}
-
-	#main h1 {
+	.designLink{
 		color: white;
 		font-family: "montserrat";
-		font-size: 50px;
-		max-width: 50%;
-		text-align: center;
-		font-weight: 500;
-		margin: 10px 0 20px 0;
-	}
-
-	#main h4 {
-		color: rgba(255, 255, 255, 0.809);
-		font-family: "montserrat";
-		font-size: 18px;
-		max-width: 40%;
-		font-weight: 500;
-		text-align: center;
-		line-height: 25px;
-	}
-
-	#main div {
-		width: 300px;
-		border: 2px solid white;
-		border-radius: 25px;
+		width: 50%;
 		position: absolute;
-		bottom: 50px;
+		text-align: center;
+		vertical-align: middle;
+		top: 50%;
 		left: 50%;
-		transform: translateX(-50%);
+		transform: translate(-50%, -50%);
+		opacity: 0;
+		transition: 0.2s ease;
+		font-size: 20px;
 	}
 
-	#main div p {
-		margin: 10px 0;
+	.design:nth-child(1){
+		width: 45%;
+		height: 30vh;
+	}
+
+	.design:nth-child(2){
+		width: 45%;
+		height: 30vh;
+	}
+
+	.design:nth-child(3){
+		width: 100%;
+		height: 50vh;
+		margin: 30px 0;
+	}
+
+	.design:nth-child(4){
+		width: 100%;
+		height: 30vh;
+	}
+
+	.designCover{
+		background-position: center;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		transition: 0.2s ease;
+	}
+
+	.designCover1{
+		background-color: black;
+	}
+
+	.designCover2{
+		background-image: url(../images/mockup5.jpg);
+	}
+
+	.designCover3{
+		background-image: url(../images/mockup1.png);
+		background-position: 80%;
+	}
+
+	.designCover4{
+		background-image: url(../images/F4.png);
+	}
+
+
+	.web{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+
+	.webLink{
 		color: white;
 		font-family: "montserrat";
-		font-size: 20px;
+		width: 50%;
+		position: absolute;
 		text-align: center;
+		vertical-align: middle;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		opacity: 0;
+		transition: 0.2s ease;
+		font-size: 20px;
 	}
 
-	#solution {
+	.web:nth-child(1){
+		width: 45%;
+		height: 30vh;
+	}
+
+	.web:nth-child(2){
+		width: 45%;
+		height: 30vh;
+	}
+
+	.web:nth-child(3){
 		width: 100%;
-		min-height: 80%;
-		background-color: white;
-		display: flex;
-		flex-direction: column-reverse;
-		padding-top: 10%;
+		height: 50vh;
+		margin: 30px 0;
 	}
 
-	.solution-left {
+	.web:nth-child(4){
 		width: 100%;
-		min-height: 50%;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		padding: 5% 5% 10% 5%;
+		height: 30vh;
 	}
 
-	.solution-left video {
-		max-width: 90%;
-	}
-
-	.solution-right {
+	.webCover{
+		background-position: center;
+		background-size: cover;
 		width: 100%;
-		min-height: 50%;
+		height: 100%;
+		transition: 0.2s ease;
+	}
+
+	.webCover1{
+		background-image: url(../images/Contact\ Pfage.jpg);
+	}
+
+	.webCover2{
+		background-image: url(../images/Untitled-3.jpg);
+	}
+
+	.webCover3{
+		background-image: url(../images/web\ mockup.jpg);
+		background-position: 20%;
+	}
+
+	.webCover4{
+		background-image: url(../images/pva\ web.jpg);
+		background-position: 0% 53%;
+	}
+
+	.foto{
 		display: flex;
-		flex-direction: column;
 		justify-content: center;
-		padding: 5%;
+		align-items: center;
+		position: relative;
 	}
 
-	.solution-right h2 {
-		color: black;
+	.fotoLink{
+		color: white;
 		font-family: "montserrat";
-		font-size: 30px;
-		font-weight: 400;
+		width: 50%;
+		position: absolute;
+		text-align: center;
+		vertical-align: middle;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		opacity: 0;
+		transition: 0.2s ease;
+		font-size: 20px;
 	}
 
-	.solution-right h6 {
-		color: black;
-		font-family: "montserrat";
-		font-size: 18px;
-		font-weight: 400;
-		line-height: 25px;
-		margin: 20px 0 50px 0;
+	.fotoCover{
+		background-position: center;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		transition: 0.2s ease;
 	}
 
-	.solution-right p {
-		color: black;
+	.foto:nth-child(1){
+		width: 45%;
+		height: 30vh;
+	}
+
+	.foto:nth-child(2){
+		width: 45%;
+		height: 30vh;
+	}
+
+	.foto:nth-child(3){
+		width: 100%;
+		height: 50vh;
+		margin: 30px 0;
+	}
+
+	.foto:nth-child(4){
+		width: 100%;
+		height: 30vh;
+	}
+
+	
+
+	.fotoCover1{
+		background-image: url(../images/fotoPortfolio/CZ\ 0632.jpg);
+	}
+
+	.fotoCover2{
+		background-image: url(../images/Untitled-3.jpg);
+	}
+
+	.fotoCover3{
+		background-image: url(../images/brazilia.jpg);
+		background-position: 30%;
+	}
+
+	.fotoCover4{
+		background-image: url(../images/fotoPortfolio/CZ\ 0632.jpg);
+	}
+
+
+
+
+
+	.portfolio-video{
+		background-color: rgb(255, 251, 0);
+	}
+
+	.rewievs-h2{
+		color: rgb(255, 255, 255);
 		font-family: "montserrat";
-		font-size: 15px;
-		font-weight: 400;
-		line-height: 25px;
+		font-weight: 500;
+		font-size: 60px;
+		text-align: center;
 	}
 
 	#rewievs {
 		width: 100%;
-		min-height: 40%;
+		min-height: 80%;
 		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
+		flex-direction: column;
+		justify-content: space-around;
 		align-items: center;
-		padding: 5%;
+		padding: 5% 5%;
+		
 	}
 
 	#rewievs div {
-		width: 30%;
-		height: 100%;
+		width: 100%;
+		height: 30%;
+		margin: 30px 0;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -967,313 +1376,16 @@ a {
 		font-family: "montserrat";
 		font-size: 25px;
 		font-weight: 400;
-		margin-top: 50px;
+		margin-top: 20px;
 	}
 
 	#rewievs div p {
-		color: white;
+		color: rgba(255, 255, 255, 0.733);
 		font-family: "montserrat";
 		font-size: 15px;
 		font-weight: 500;
 		line-height: 25px;
 		text-align: center;
-	}
-
-	#services {
-		width: 100%;
-		height: 150%;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.services-left {
-		width: 100%;
-		height: 30%;
-		padding: 0 5%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.services-left h4 {
-		color: white;
-		font-family: "montserrat";
-		font-size: 30px;
-		font-weight: 400;
-		width: 70%;
-		margin: 10px 0 20px 0;
-	}
-
-	.services-left p {
-		color: white;
-		font-family: "montserrat";
-		font-size: 15px;
-		font-weight: 400;
-		line-height: 25px;
-		margin-bottom: 50px;
-	}
-
-	.services-left div {
-		width: 300px;
-		border: 2px solid white;
-		border-radius: 25px;
-	}
-
-	.services-left div p {
-		margin: 10px 0;
-		color: white;
-		font-family: "montserrat";
-		font-size: 20px;
-		text-align: center;
-	}
-
-	.services-right {
-		width: 100%;
-		min-height: 70%;
-		background-color: white;
-		border-radius: 25px 0 0 0;
-		display: flex;
-		flex-wrap: wrap;
-		padding: 3% 5%;
-	}
-	.box {
-		width: 100%;
-		height: 25%;
-		padding: 0 0 20px 0;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	#services .icon {
-		width: 50px;
-		height: 50px;
-		border-radius: 50%;
-		box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.229);
-	}
-
-	.box h4 {
-		color: black;
-		font-family: "montserrat";
-		font-size: 25px;
-		font-weight: 400;
-		margin: 10px 0 20px 0;
-	}
-
-	.box p {
-		color: black;
-		font-family: "montserrat";
-		font-size: 15px;
-		font-weight: 400;
-		line-height: 25px;
-	}
-
-	.box a {
-		color: black;
-		font-family: "montserrat";
-		font-size: 18px;
-		font-weight: 400;
-		text-decoration: underline;
-		line-height: 25px;
-		margin-top: 10px;
-	}
-
-	.icon1 {
-		background-image: url(../images/web.png);
-		background-position: center 60%;
-		background-size: 80%;
-		background-repeat: no-repeat;
-	}
-
-	.icon2 {
-		background-image: url(../images/instagram.png);
-		background-position: center;
-		background-size: 60%;
-		background-repeat: no-repeat;
-	}
-
-	.icon3 {
-		background-image: url(../images/Video-Symbol-PNG-Photo.png);
-		background-position: center;
-		background-size: 60%;
-		background-repeat: no-repeat;
-	}
-
-	.icon4 {
-		background-image: url(../images/photo.png);
-		background-position: center;
-		background-size: 60%;
-		background-repeat: no-repeat;
-	}
-
-	#benefits {
-		width: 100%;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		padding: 5% 5% 5% 10%;
-	}
-
-	.benefits-box {
-		width: 30%;
-		min-height: 500px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.benefits-box img {
-		width: 70px;
-	}
-
-	.num {
-		margin: 20px 0;
-	}
-	.benefits-box h4 {
-		color: white;
-		font-family: "montserrat";
-		font-size: 25px;
-		font-weight: 400;
-		margin: 10px 0 20px 0;
-	}
-
-	.benefits-box p {
-		color: white;
-		font-family: "montserrat";
-		font-size: 15px;
-		font-weight: 400;
-		line-height: 25px;
-		max-width: 75%;
-	}
-
-	#about {
-		width: 100%;
-		background-color: white;
-		display: flex;
-	}
-
-	.about-left {
-		width: 50%;
-		min-height: 500px;
-		padding: 5%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.about-left h4 {
-		color: black;
-		font-family: "montserrat";
-		font-size: 60px;
-		font-weight: 400;
-		margin: 10px 0 20px 0;
-	}
-
-	.about-left h6 {
-		color: black;
-		font-family: "montserrat";
-		font-size: 25px;
-		font-weight: 400;
-		margin: 10px 0 20px 0;
-	}
-
-	.about-left p {
-		color: black;
-		font-family: "montserrat";
-		font-size: 15px;
-		font-weight: 400;
-		line-height: 25px;
-		max-width: 75%;
-	}
-
-	.about-left a {
-		color: black;
-		font-family: "montserrat";
-		font-size: 18px;
-		font-weight: 400;
-		text-decoration: underline;
-		line-height: 25px;
-		margin-top: 10px;
-	}
-
-	.about-right {
-		width: 50%;
-		min-height: 500px;
-		background-image: url(../images/DSC07463.jpg);
-		background-position: 60% center;
-		background-size: cover;
-	}
-
-	#portfolio {
-		width: 100%;
-		margin-top: 10%;
-	}
-
-	.project {
-		width: 100%;
-		min-height: 500px;
-		display: flex;
-	}
-
-	.portfolio-left {
-		width: 50%;
-		min-height: 100%;
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.portfolio-left img {
-		width: 70%;
-	}
-
-	.portfolio-right {
-		width: 50%;
-		min-height: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.portfolio-right h4 {
-		color: white;
-		font-family: "montserrat";
-		font-size: 60px;
-		font-weight: 400;
-		margin: 10px 0 0px 0;
-	}
-	.portfolio-right h6 {
-		color: white;
-		font-family: "montserrat";
-		font-size: 25px;
-		font-weight: 400;
-		margin: 0px 0 20px 0;
-	}
-
-	.portfolio-right p {
-		color: white;
-		font-family: "montserrat";
-		font-size: 15px;
-		font-weight: 400;
-		line-height: 25px;
-		max-width: 75%;
-	}
-
-	.portfolio-right a {
-		max-width: 200px;
-		margin-top: 50px;
-	}
-
-	.portfolio-right div {
-		max-width: 200px;
-		min-height: 50px;
-		border: 2px solid white;
-		border-radius: 25px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
 	}
 
 	#footer {
@@ -1989,33 +2101,7 @@ a {
 	}
 }
 
-.hidden {
-	opacity: 0;
-	transition: all 1s;
-	filter: blur(5px);
-	transform: translateX(-100%);
-}
 
-.hidden-left {
-	opacity: 0;
-	transition: all 1s;
-	filter: blur(5px);
-	transform: translateX(100%);
-}
-
-.show {
-	opacity: 1;
-	filter: blur(0px);
-	transform: translateX(0%);
-}
-
-.delay1 {
-	transition-delay: 200ms;
-}
-
-.delay2 {
-	transition-delay: 400ms;
-}
 
 /*###########################################################################################  */
 /*#########################################pc##########################################  */
