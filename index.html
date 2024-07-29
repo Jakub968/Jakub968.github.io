@@ -20,6 +20,18 @@
             <path class="path2" d="M747.2,298.01v425.16s-43.94,0-43.94,0v-425.16s43.94,0,43.94,0Z" />
           </svg>
     </div>
+
+    <div class="mobileMenu">
+        <img onclick="menuMobileHide()" class="x" src="images/X.png" alt="">
+        <ul>
+            <a onclick="menuMobileHide()" href="index.html" class="hidden"><li>Domov</li></a>
+            <a onclick="menuMobileHide()" href="about.html" class="hidden-left dealay1"><li>O nás</li></a>
+            <a onclick="menuMobileHide()" href="#services" class="hidden dealay2"><li>Služby</li></a>
+            <a onclick="menuMobileHide()" href="portfolio.html" class="hidden-left dealay3"><li>Portfólio</li></a>
+            <a onclick="menuMobileHide()" href="contact.html" class="hidden-left dealay3"><li>Kontakt</li></a>
+        </ul>
+  
+    </div>
    
     <header id="header">
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1062 765.07">
@@ -38,6 +50,7 @@
             <a href="portfolio.html" class="hidden-left"><li>Portfólio</li></a>
             <a href="contact.html" class="hidden-left"><li>Kontakt</li></a>
         </ul>
+        <img onclick="menuMobileShow()" class="hamburger" src="images/hamburger-01.png" alt="">
 
     </header>
     <div id="main">
@@ -442,6 +455,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
     <script src="script/portfolioHome.js"></script>
     <script src="script/homeServices.js"></script>
+    <script src="script/mobileMenu.js"></script>
     <script>
         const loaderContainer = document.querySelector('#loadingScreen')
 
