@@ -9,6 +9,17 @@
 <body onload="animation()">
 
     <div id="bgWeb"></div>
+    <div class="mobileMenu">
+        <img onclick="menuMobileHide()" class="x" src="images/X.png" alt="">
+        <ul>
+            <a onclick="menuMobileHide()" href="index.html" class="hidden"><li>Domov</li></a>
+            <a onclick="menuMobileHide()" href="about.html" class="hidden-left dealay1"><li>O nás</li></a>
+            <a onclick="menuMobileHide()" href="index.html#services" class="hidden dealay2"><li>Služby</li></a>
+            <a onclick="menuMobileHide()" href="portfolio.html" class="hidden-left dealay3"><li>Portfólio</li></a>
+            <a onclick="menuMobileHide()" href="contact.html" class="hidden-left dealay3"><li>Kontakt</li></a>
+        </ul>
+  
+    </div>
     <header id="header">
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1062 765.07">
             <path class="path1" d="M309.84,684.43h-149.77c-37.19,0-65.68-6.37-85.5-19.1-19.8-12.73-29.71-33.05-29.71-60.94s9.91-47.6,29.71-60.33c19.81-12.73,48.31-19.1,85.5-19.1h64.57v-36.99h-50.01c-33.96,0-60.33-6.46-79.13-19.4-18.8-12.94-28.19-32.14-28.19-57.6s9.4-45.17,28.19-57.91c18.8-12.73,45.17-19.1,79.13-19.1h135.21l7.13-.65c6.92,0,5.19.51,13.75.51s15.66.08,23.99.08v-36.93h-183.12c-47.3,0-83.98,9.5-110.05,28.5-26.07,19.01-39.11,45.88-39.11,80.64,0,23.04,5.36,42.44,16.07,58.21,10.71,15.76,25.27,27.69,43.66,35.78,1.71.75,3.45,1.43,5.18,2.11-8.98,1.99-17.4,4.6-25.19,7.89-19.6,8.29-34.86,20.62-45.78,36.99-10.91,16.37-16.37,36.68-16.37,60.94,0,35.98,13.24,63.87,39.72,83.68,26.48,19.81,66.4,29.71,119.75,29.71h195.24v-37.12" />
@@ -22,23 +33,23 @@
         <ul>
             <a href="index.html" class="hidden-left"><li>Domov</li></a>
             <a href="about.html" class="hidden-left"><li>O nás</li></a>
-            <a href="services.html" class="hidden-left"><li>Služby</li></a>
-            <a href="" class="hidden-left"><li>Portfólio</li></a>
+            <a href="index.html#services" class="hidden-left"><li>Služby</li></a>
+            <a href="portfolio.html" class="hidden-left"><li>Portfólio</li></a>
             <a href="" class="hidden-left"><li>Kontakt</li></a>
         </ul>
-
+        <img onclick="menuMobileShow()" class="hamburger" src="images/hamburger-01.png" alt="">
     </header>
     <main id="main">
         <div class="main-box">
             <h1 class="hidden">WEB DEVELOPMENT</h1>
             <p class="hidden delay1">zaoberáme sa tvorbou webových stránok s ohľadom na nášho zákazníka. Náš strategicky orientovaný prístup nám umožňuje vytvárať pôsobivé webové stránky, ktoré zapájajú a motivujú vašu cieľovú skupinu.</p>
-            <a href="" ><div class="hidden-left"> <p>Podte s nami spolupracovať</p></div></a>
+            <a href="#container" ><div class="hidden-left"> <p>NAPÍŠTE NÁM</p></div></a>
 
         </div>
         
     </main>
     <div id="benefits">
-        <div class="benefit1">
+        <div class="benefit1 ">
             <div class="benefit-left">
                 <h4>Individualizovaný Prístup</h4>
                 <p>Naša tvorba webstránok je založená na individuálnom prístupe k každému klientovi. 
@@ -51,7 +62,7 @@
             </div>
 
         </div>
-        <div class="benefit2">
+        <div class="benefit2 ">
             <div class="benefit-left">
                 <h4>Špičkový Dizajn a Funkcionalita</h4>
                 <p>Naši skúsení dizajnéri a vývojári spoja svoje sily, aby vytvorili webstránku, 
@@ -64,7 +75,7 @@
                 <p>2</p>
             </div>
         </div>
-        <div class="benefit1">
+        <div class="benefit1 ">
             <div class="benefit-left">
                 <h4>SEO Optimalizácia</h4>
                 <p>Venujeme špeciálnu pozornosť optimalizácii pre vyhľadávače (SEO), čo znamená,
@@ -78,7 +89,7 @@
             </div>
 
         </div>
-        <div class="benefit2">
+        <div class="benefit2 ">
             <div class="benefit-left">
                 <h4>Responzívny web dizajn</h4>
                 <p>Aj keď 1 % návštevnosti webu pochádza z mobilných zariadení, je potrebné 
@@ -146,8 +157,91 @@
             </div>
     </div>
 
+    <div id="container">
+        <h1> Napíš nám </h1>
+        <form action="#" method="post" id="contact_form">
+          <div class="name">
+            <label for="name"></label>
+            <input type="text" placeholder="Meno" name="name" id="name_input" required>
+          </div>
+          <div class="email">
+            <label for="email"></label>
+            <input type="email" placeholder=" e-mail " name="email" id="email_input" required>
+          </div>
+          <div class="telephone">
+            <label for="name"></label>
+            <input type="text" placeholder=" Tel. č. " name="telephone" id="telephone_input" required>
+          </div>
+          <div class="subject">
+            <label for="subject"></label>
+            <select placeholder="Subject line" name="subject" id="subject_input">
+              <option disabled hidden selected>vybrať rozpočet</option>
+              <option>Neviem</option>
+              <option>0-500</option>
+              <option>500-1000</option>
+              <option>1000-2000</option>
+              <option>2000-5000</option>
+              <option>viac</option>
+            </select>
+          </div>
+          <div class="message">
+            <label for="message"></label>
+            <textarea name="message" placeholder="Správa" id="message_input" cols="30" rows="5" required></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" value="odoslať" id="form_button" />
+          </div>
+        </form><!-- // End form -->
+      </div><!-- // End #container -->
+
+      <div id="footer">
+        <div class="top-footer">
+            <img src="images/c.png" alt="">
+        </div>
+        <div class="mid-footer">
+            <div class="mid-left">
+                <h6>Jakub Gerer - Bentrace <br>
+                    Jakub Benický
+                </h6>
+                <p>
+                    IČO: 09238410 <br><br>
+                    DIČ: 03945322 <br><br>
+                    Ráztoka 113, 976 97 <br><br><br><br>
+                    0908 937 658 <br><br>
+                    info@bentrace.com
+                </p>
+
+            </div>
+            <div class="mid-mid">
+                <h6>Podstránky</h6>
+
+                <a href="">Domov</a>
+                <a href="">O nás</a>
+                <a href="">Služby</a>
+                <a href="">Portfólio</a>
+                <a href="">kontakt</a>
+            </div>
+            <div class="mid-right">
+                <h6>Info</h6>
+
+                <a href="">GDPR</a>
+                <a href="">Obchodné podmienky</a>
+            
+            </div>
+            </div>
+
+        </div>
+        <div class="bottom-footer">
+            <p>compyrights@ vyhradené pre ben-trace.com / Vytvoril a nadizajnoval Bentrace</p>
+        </div>
+
+    </div>
+
+
 
     <script src="script/logo.js"></script>
+    <script src="script/mobileMenu.js"></script>
+    <script src="script/app.js"></script>
     <script>
         const loaderContainer = document.querySelector('#loadingScreen')
 
