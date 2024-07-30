@@ -178,8 +178,25 @@ a {
 		width: 100vw;
 		min-height: 50vh;
 		display: flex;
-		flex-direction: column-reverse;
+		flex-direction: column;
+		margin: 70px 0;
 	}
+
+	.horizontal{
+		width: 80%;
+		height: 190px;
+	}
+
+	.vertical{
+		width: 30%;
+		height: 220px;
+	}
+
+	.vertical:last-child{
+		display: none;
+	}
+
+	
 	
 
 	
@@ -190,6 +207,7 @@ a {
 		flex-direction: column;
 		justify-content: center;
 		padding: 0 5%;
+		margin-bottom: 20px;
 	}
 	
 	.benefit-left h4 {
@@ -217,6 +235,10 @@ a {
 	
 	.benefit2 .benefit-right {
 		align-items: center;
+	}
+
+	.benefit-right-vertical{
+		flex-direction: row;
 	}
 	
 	.benefit-right p {
@@ -809,27 +831,40 @@ a {
 	.benefit2 {
 		width: 100vw;
 		min-height: 50vh;
-		padding: 0 5%;
 		display: flex;
+		flex-direction: column;
+		margin: 70px 0;
 	}
+
+
+	.vertical{
+		width: 30%;
+		height: 350px;
+	}
+
+	.vertical:last-child{
+		display: none;
+	}
+
 	
-	.benefit2 {
-		flex-direction: row-reverse;
-	}
+	
+
 	
 	.benefit-left {
-		width: 70vw;
-		min-height: 50vh;
+		width: 100vw;
+		min-height: 20vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		padding: 0 5%;
+		margin-bottom: 20px;
 	}
 	
 	.benefit-left h4 {
 		color: white;
 		font-family: "montserrat";
 		font-size: 30px;
-		margin-bottom: 5vh;
+		margin-bottom: 2vh;
 	}
 	
 	.benefit-left p {
@@ -840,22 +875,26 @@ a {
 	}
 	
 	.benefit-right {
-		width: 30vw;
-		min-height: 50vh;
+		width: 100vw;
+		min-height: 10vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: flex-end;
+		align-items: center;
 	}
 	
 	.benefit2 .benefit-right {
-		align-items: flex-start;
+		align-items: center;
+	}
+
+	.benefit-right-vertical{
+		flex-direction: row;
 	}
 	
 	.benefit-right p {
 		color: white;
 		font-family: "montserrat";
-		font-size: 250px;
+		font-size: 150px;
 	}
 	
 	#portfolio {
@@ -1480,16 +1519,17 @@ a {
 	.benefit2 {
 		width: 100vw;
 		min-height: 50vh;
-		padding: 0 30vh;
+		padding: 0 10%;
 		display: flex;
 	}
 	
 	.benefit2 {
 		flex-direction: row-reverse;
 	}
+
 	
 	.benefit-left {
-		width: 70vw;
+		width: 40vw;
 		min-height: 50vh;
 		display: flex;
 		flex-direction: column;
@@ -1511,16 +1551,16 @@ a {
 	}
 	
 	.benefit-right {
-		width: 30vw;
+		width: 60vw;
 		min-height: 50vh;
 		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-end;
+		flex-direction: row;
+		justify-content: flex-end;
+		align-items: center;
 	}
 	
 	.benefit2 .benefit-right {
-		align-items: flex-start;
+		justify-content: flex-start;
 	}
 	
 	.benefit-right p {
@@ -1580,6 +1620,10 @@ a {
 		min-height: 80vh;
 		position: relative;
 		z-index: 1;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.portfolio1 .homePage {

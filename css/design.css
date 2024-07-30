@@ -1580,41 +1580,25 @@ a {
 		min-height: 80vh;
 		position: relative;
 		z-index: 1;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.portfolio1 .homePage {
 		max-height: 70vh;
-		position: absolute;
-		bottom: 50px;
-		left: 200px;
 		z-index: 1;
 		box-shadow: -3px 5px 20px rgba(0, 0, 0, 0.409);
 	}
 	
-	.portfolio1 .contactPage {
-		max-height: 20vh;
-		position: absolute;
-		bottom: 20%;
-		left: 300px;
-		z-index: 2;
-		box-shadow: 0 0 10px black;
-	}
+
 	
 	.portfolio2 .homePage {
-		max-height: 70vh;
-		position: absolute;
-		bottom: 50px;
-		left: 300px;
-		z-index: 2;
+		max-height: 50vh;
 		box-shadow: -3px 5px 20px rgba(0, 0, 0, 0.409);
 	}
 	
-	.portfolio2 .contactPage {
-		max-height: 70vh;
-		position: absolute;
-		bottom: 10px;
-		left: 100px;
-	}
 	
 	.portfolio-right {
 		width: 50%;
