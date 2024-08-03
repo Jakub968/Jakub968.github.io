@@ -208,7 +208,7 @@ a {
 	.about-left-box{
 		width: 100%;
 		height: 40vh;
-		background-image: url(../images/DSC07463.jpg);
+		background-image: url(../images/IMG_0602.jpg);
 		background-size: cover;
 		background-position: center;
 	}
@@ -276,7 +276,7 @@ a {
 		position: relative;
 		margin-top: 20%;
 		margin-bottom: 30%;
-		padding: 0 2%;
+		padding: 0 5%;
 	}
 
 	.bg-service-text{
@@ -296,8 +296,9 @@ a {
 		flex-direction: column;
 		justify-content: center;
 		margin: 0 5%;
-		/* background-color: rgb(24, 24, 24); */
+		background-color: rgba(37, 37, 37, 0.841);
 		transition: 0.4s ease;
+		margin: 20px 0;
 	}
 
 	.service-box img{
@@ -413,7 +414,8 @@ a {
 	}
 
 	.portfolio-box-top ul li:first-child{
-		border-bottom: 1px solid white;
+		background-color: white;
+		color: black;
 	}
 
 	.portfolio-design, .portfolio-web, .portfolio-video, .portfolio-foto{
@@ -939,7 +941,7 @@ a {
 	.about-left-box{
 		width: 100%;
 		height: 40vh;
-		background-image: url(../images/DSC07463.jpg);
+		background-image: url(../images/IMG_0602.jpg);
 		background-size: cover;
 		background-position: center;
 	}
@@ -1142,7 +1144,8 @@ a {
 	}
 
 	.portfolio-box-top ul li:first-child{
-		border-bottom: 1px solid white;
+		background-color: white;
+		color: black;
 	}
 
 	.portfolio-design, .portfolio-web, .portfolio-video, .portfolio-foto{
@@ -2291,7 +2294,7 @@ a {
 	.about-left-box{
 		width: 100%;
 		height: 60vh;
-		background-image: url(../images/DSC07463.jpg);
+		background-image: url(../images/IMG_0602.jpg);
 		background-size: cover;
 		background-position: center;
 	}
@@ -2375,7 +2378,7 @@ a {
 		flex-direction: column;
 		justify-content: center;
 		margin: 0 5%;
-		/* background-color: rgb(24, 24, 24); */
+		background-color: rgba(255, 255, 255, 0.075);
 		transition: 0.4s ease;
 	}
 
@@ -2489,7 +2492,8 @@ a {
 	}
 
 	.portfolio-box-top ul li:first-child{
-		border-bottom: 1px solid white;
+		background-color: white;
+		color: black;
 	}
 
 	.portfolio-design, .portfolio-web, .portfolio-video, .portfolio-foto{

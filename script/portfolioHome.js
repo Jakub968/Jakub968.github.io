@@ -7,12 +7,7 @@ let portfolioFoto = document.getElementsByClassName('portfolio-foto')
 let portfolioList = document.getElementsByClassName('portfolio-list')
 
 for (let e = 0; e < 4; e++) {
-    portfolioList[e].addEventListener('mouseover', ()=>{
-        portfolioList[e].style.color = 'white'
-    })
-    portfolioList[e].addEventListener('mouseout', ()=>{
-        portfolioList[e].style.color = 'rgba(255, 255, 255, 0.774)'
-    })
+        portfolioList[e].style.padding = '10px 15px'
     
 }
 
@@ -24,10 +19,14 @@ function design() {
     portfolioVideo[0].style.display = 'none'
     portfolioFoto[0].style.display = 'none'
 
-    portfolioList[0].style.borderBottom = '1px solid white'
-    portfolioList[1].style.borderBottom = 'none'
-    portfolioList[2].style.borderBottom = 'none'
-    portfolioList[3].style.borderBottom = 'none'
+    portfolioList[0].style.background = 'white'
+    portfolioList[0].style.color = 'black'
+    portfolioList[1].style.background = 'none'
+    portfolioList[1].style.color = 'white'
+    portfolioList[2].style.background = 'none'
+    portfolioList[2].style.color = 'white'
+    portfolioList[3].style.background = 'none'
+    portfolioList[3].style.color = 'white'
 }
 
 function web() {
@@ -37,10 +36,14 @@ function web() {
     portfolioVideo[0].style.display = 'none'
     portfolioFoto[0].style.display = 'none'
 
-    portfolioList[0].style.borderBottom = 'none'
-    portfolioList[1].style.borderBottom = '1px solid white'
-    portfolioList[2].style.borderBottom = 'none'
-    portfolioList[3].style.borderBottom = 'none'
+    portfolioList[0].style.background = 'none'
+    portfolioList[0].style.color = 'white'
+    portfolioList[1].style.background = 'white'
+    portfolioList[1].style.color = 'black'
+    portfolioList[2].style.background = 'none'
+    portfolioList[2].style.color = 'white'
+    portfolioList[3].style.background = 'none'
+    portfolioList[3].style.color = 'white'
 }
 
 function video() {
@@ -50,10 +53,14 @@ function video() {
     portfolioVideo[0].style.display = 'flex'
     portfolioFoto[0].style.display = 'none'
 
-    portfolioList[0].style.borderBottom = 'none'
-    portfolioList[1].style.borderBottom = 'none'
-    portfolioList[2].style.borderBottom = '1px solid white'
-    portfolioList[3].style.borderBottom = 'none'
+    portfolioList[0].style.background = 'none'
+    portfolioList[0].style.color = 'white'
+    portfolioList[1].style.background = 'none'
+    portfolioList[1].style.color = 'white'
+    portfolioList[2].style.background = 'white'
+    portfolioList[2].style.color = 'black'
+    portfolioList[3].style.background = 'none'
+    portfolioList[3].style.color = 'white'
 }
 
 function foto() {
@@ -63,10 +70,14 @@ function foto() {
     portfolioVideo[0].style.display = 'none'
     portfolioFoto[0].style.display = 'flex'
 
-    portfolioList[0].style.borderBottom = 'none'
-    portfolioList[1].style.borderBottom = 'none'
-    portfolioList[2].style.borderBottom = 'none'
-    portfolioList[3].style.borderBottom = '1px solid white'
+    portfolioList[0].style.background = 'none'
+    portfolioList[0].style.color = 'white'
+    portfolioList[1].style.background = 'none'
+    portfolioList[1].style.color = 'white'
+    portfolioList[2].style.background = 'none'
+    portfolioList[2].style.color = 'white'
+    portfolioList[3].style.background = 'white'
+    portfolioList[3].style.color = 'black'
 }
 
 

@@ -43,7 +43,7 @@ MainServiceBox[0].addEventListener('mouseover', ()=>{
 })
 
 MainServiceBox[0].addEventListener('mouseout', ()=>{
-    MainServiceBox[0].style.background = 'none'
+    MainServiceBox[0].style.background = 'rgba(255, 255, 255, 0.075)'
     serviceH2[0].style.color = 'white'
 
     serviceLi[0].style.color = 'white'
@@ -82,7 +82,7 @@ MainServiceBox[1].addEventListener('mouseover', ()=>{
 })
 
 MainServiceBox[1].addEventListener('mouseout', ()=>{
-    MainServiceBox[1].style.background = 'none'
+    MainServiceBox[1].style.background = 'rgba(255, 255, 255, 0.075)'
     serviceH2[1].style.color = 'white'
 
     serviceLi[3].style.color = 'white'
@@ -120,7 +120,7 @@ MainServiceBox[2].addEventListener('mouseover', ()=>{
 })
 
 MainServiceBox[2].addEventListener('mouseout', ()=>{
-    MainServiceBox[2].style.background = 'none'
+    MainServiceBox[2].style.background = 'rgba(255, 255, 255, 0.075)'
     serviceH2[2].style.color = 'white'
 
     serviceLi[6].style.color = 'white'
@@ -158,7 +158,7 @@ MainServiceBox[3].addEventListener('mouseover', ()=>{
 })
 
 MainServiceBox[3].addEventListener('mouseout', ()=>{
-    MainServiceBox[3].style.background = 'none'
+    MainServiceBox[3].style.background = 'rgba(255, 255, 255, 0.075)'
     serviceH2[3].style.color = 'white'
 
     serviceLi[9].style.color = 'white'
@@ -187,7 +187,6 @@ MainServiceBox[4].addEventListener('mouseover', ()=>{
 
     serviceDiv[4].style.background = 'black'
     serviceDIvP[4].style.color = 'white'
-    serviceP[4].style.color = 'black'
 
     for (let a = 0; a < 20; a++) {
 
@@ -198,7 +197,7 @@ MainServiceBox[4].addEventListener('mouseover', ()=>{
 })
 
 MainServiceBox[4].addEventListener('mouseout', ()=>{
-    MainServiceBox[4].style.background = 'none'
+    MainServiceBox[4].style.background = 'rgba(255, 255, 255, 0.075)'
     serviceH2[4].style.color = 'white'
 
     serviceLi[12].style.color = 'white'
@@ -207,7 +206,6 @@ MainServiceBox[4].addEventListener('mouseout', ()=>{
 
     serviceDiv[4].style.background = 'white'
     serviceDIvP[4].style.color = 'black'
-    serviceP[4].style.color = 'white'
 
     for (let b = 0; b < 20; b++) {
 
@@ -228,7 +226,6 @@ MainServiceBox[5].addEventListener('mouseover', ()=>{
 
     serviceDiv[5].style.background = 'black'
     serviceDIvP[5].style.color = 'white'
-    serviceP[5].style.color = 'black'
 
     for (let a = 0; a < 20; a++) {
 
@@ -237,7 +234,7 @@ MainServiceBox[5].addEventListener('mouseover', ()=>{
 })
 
 MainServiceBox[5].addEventListener('mouseout', ()=>{
-    MainServiceBox[5].style.background = 'none'
+    MainServiceBox[5].style.background = 'rgba(255, 255, 255, 0.075)'
     serviceH2[5].style.color = 'white'
 
     serviceLi[15].style.color = 'white'
@@ -246,7 +243,6 @@ MainServiceBox[5].addEventListener('mouseout', ()=>{
 
     serviceDiv[5].style.background = 'white'
     serviceDIvP[5].style.color = 'black'
-    serviceP[5].style.color = 'white'
 
     for (let b = 0; b < 20; b++) {
 
